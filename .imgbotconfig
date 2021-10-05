@@ -1,0 +1,9 @@
+{
+    "schedule": "daily",
+    "ignoredFiles": [
+        "assets/img/special_images/*", // ignore by folder path
+    ],
+    "aggressiveCompression": "false", //To reduce loss of image quality as currently we have less images
+    "compressWiki": "true",
+    "minKBReduced": null // Could be updated in near future
+}
