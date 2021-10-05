@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html{
+  height: 100%;
+}
+
+footer{
+  background-color: #133667;
+}
+
+.prep-logo img{
+    width: 250px;
+}
+.pod-name{
+
+  margin: 0.25%;
+  font-family: 'Lobster', cursive;
+  font-size: 5vh;
+  font-weight: bolder;
+}
+.bird{
+  color: rosybrown;
+}
+.links, .pod-quote{
+  text-align: justify;
+  font-size: 2vh;
+
+}
+.pod-quote{
+  margin-left: 2vw;
+  padding-bottom: 1vw;
+  font-family: 'Lobster', cursive;
+  font-size: 4vh;
+  font-weight: bold;
+
+}
+/**/
+
+.links a{
+  color: unset;
+  font-size: unset;
+}
+
+.links a:hover{
+  color:black;
+  text-decoration: none;
+}
+.social-handles a{
+  margin-right: 10px;
+}
+
+@media (max-width: 1000px) {
+  #sparrows{
+    width: 80%;
+    margin: auto;
+    font-size: 3.5vh;
+  }
+  .location{
+    grid-column: 1;
+  }
+}
