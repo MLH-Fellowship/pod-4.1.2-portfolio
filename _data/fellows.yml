@@ -1,15 +1,27 @@
 - name: Will
   img: logo.jpg
   location: London, UK
+  coordinates:
+    x: 51.5
+    y: -0.09
 
 - name: Amanda
   img: amanda.jpg
   location: New York City, USA
+  coordinates:
+    x: 28
+    y: 77
 
 - name: Aaron
   img: aaron.jpg
   location: London, UK
+  coordinates:
+    x: 34
+    y: 118
 
 - name: Swift
   img: swift.jpg
   location: New York City, USA
+  coordinates:
+    x: 40
+    y: 74
