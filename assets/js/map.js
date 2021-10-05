@@ -20,6 +20,7 @@ L.tileLayer(
   }
 ).addTo(mymap);
 
+
 let fellows = {{ site.data.fellows | jsonify }}
 
 fellows.forEach((fellow) => {
