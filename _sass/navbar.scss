@@ -5,17 +5,15 @@
     font-weight: 700 !important;
     padding-top: 10px;
 }
+
 /*Simple css to style it like a toggle switch*/
 .theme-switch-wrapper {
     display: flex;
     align-items: center;
 
-    em {
-        margin-left: 10px;
-        font-size: 1rem;
-    }
 }
 .theme-switch {
+    margin: auto;
     display: inline-block;
     height: 34px;
     position: relative;
@@ -23,6 +21,7 @@
 }
 
 .theme-switch input {
+
     display:none;
 }
 
