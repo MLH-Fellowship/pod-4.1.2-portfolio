@@ -9,6 +9,21 @@
     grid-template-columns: repeat(4, 1fr);
     font-family: "Open Sans", sans-serif;
 }
+:root {
+    --primary-color: #302AE6;
+    --secondary-color: #536390;
+    --font-color: #424242;
+    --bg-color: #fff;
+    --heading-color: #292922;
+}
+
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+    --heading-color: #818cab;
+}
 
 @media only screen and (max-width: 1500px) {
   .card-container {
@@ -28,12 +43,19 @@
   }
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000 !important;
+    }
+}
 
 body {
-    background-color: #f5f5f9;
     margin-bottom: 50px;
+    background-color: var(--bg-color);
+    color: var(--font-color);
 }
 h2 {
+    color: var(--secondary-color);
     margin-bottom: 20px;
     margin-top: 20px;
     font-weight: 700;
@@ -41,6 +63,7 @@ h2 {
 }
 
 .card {
+    color: var(--secondary-color);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -52,29 +75,32 @@ h2 {
 }
 
 a {
-    color: black;
+    color: var(--secondary-color);
 }
 
 .info {
     p {
+        color: var(--secondary-color);
         margin-top: 5px;
         margin: 0px;
         text-align: left;
     }
 
     .title {
+        color: var(--secondary-color);
         font-size: 500;
         font-weight: bold;
     }
 
     .location, .description {
+        color: var(--secondary-color);
         font-size: medium;
         font-weight: 400;
     }
 
     .dates {
+        color: var(--secondary-color);
         font-size: small;
-        color: #404040;
     }
 }
 

@@ -20,6 +20,25 @@
     <script src="https://jsxss.com/assets/xss.js"
         crossorigin="anonymous"></script>
 
+    <script>
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+            function switchTheme(e) {
+                if (e.target.checked) {
+                    document.documentElement.setAttribute('data-theme', 'dark');
+                }
+                else {
+                    document.documentElement.setAttribute('data-theme', 'light');
+                }
+            }
+            console.log("to", toggleSwitch)
+            toggleSwitch.addEventListener('change', switchTheme, false);
+        })
+
+    </script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
