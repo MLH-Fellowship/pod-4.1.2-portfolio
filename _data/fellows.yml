@@ -1,15 +1,51 @@
-- name: Will
-  img: logo.jpg
+- name: Yashika Sharma
+  img: yashika.jpeg
+  location: New Delhi, India
+
+- name: Aditya Sinha
+  img: aditya.png
+  location: New Delhi, India
+
+- name: Abu Sayid Choudhury
+  img: abu_sayid.png
   location: London, UK
 
-- name: Amanda
-  img: amanda.jpg
+- name: Anubhuti Shruti
+  img: anubhuti.jpg
+  location: Jharkhand, India
+
+- name: Kevin Cheng
+  img: kevin.jpeg
   location: New York City, USA
 
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
+- name: Mazen Sayed
+  img: mazen.jpeg
+  location: Cairo, Egypt
 
-- name: Swift
+- name: Nikhil BN
+  img: nikhil.jpeg
+  location: Karnataka, india
+
+- name: Prabin Acharya
+  img: prabin.jpeg
+  location: Kathmandu,Nepal
+
+- name: Ritesh Patel
+  img: ritesh.jpeg
+  location: Maharashtra, India
+
+- name: Rohit Kundu
+  img: swift.jpg
+  location: Urbana, Illinois
+
+- name: Shubham Aggarwal
+  img: shubham.jpeg
+  location: New Delhi, India
+
+- name: Stephanie Kim
   img: swift.jpg
   location: New York City, USA
+
+- name: M. Vignesh Venkataraman
+  img: vignesh.jpeg
+  location: Bangalore, India
