@@ -3,8 +3,8 @@
   description: Hello! I am Will. I like to build tech communities & currently I'm associated with Major League Hacking
   location: London, UK
   coordinates:
-    x: 51.5
-    y: -0.09
+    x: 51.5074
+    y: -0.1278
   technologies:
     - react
     - typescript
@@ -19,8 +19,8 @@
   description: Hello! I am Amanda. I like to build tech communities & currently I'm associated with Major League Hacking
   location: New York City, USA
   coordinates:
-    x: 28
-    y: 77
+    x: 40.7128
+    y: -74.006
   technologies:
     - java
     - spring-boot
@@ -33,8 +33,8 @@
   description: Hello! I am Aaron. I like to build tech communities & currently I'm associated with Major League Hacking
   location: London, UK
   coordinates:
-    x: 34
-    y: 118
+    x: 51.5074
+    y: -0.1278
   technologies:
     - node
     - typescript
@@ -50,8 +50,8 @@
   description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: New York City, USA
   coordinates:
-    x: 40
-    y: 74
+    x: 40.7128
+    y: -74.006
   technologies:
     - python
     - scikit learn
