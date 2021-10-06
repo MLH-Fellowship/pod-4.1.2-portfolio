@@ -4,3 +4,7 @@ _site
 .jekyll-metadata
 vendor
 .bundle
+
+#just for this push
+Dockerfile
+docker-compose.yml

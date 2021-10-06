@@ -7,8 +7,11 @@
     <a>
     {% endif %}
       <div class="card">
+	<img src = {{ item.image }} class = "lefticon" style = "width: 20%;" >
         <div class="info">
           <p class="title">{{ item.title }}</p>
+	  <p class = "author">Authors: {{ item.author }}</p>
+	  <p class = "description">{{ item.description }}</p>
           <p class="location">{{ item.event }}</p>
           <p class="dates">{{ item.date }}</p>
         </div>
@@ -16,4 +19,12 @@
     </a>
     {% endfor %}
   </div>
-  
+
+<style>
+.lefticon {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  margin-right:5px;
+}
+</style>
