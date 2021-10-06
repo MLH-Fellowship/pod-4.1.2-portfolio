@@ -5,6 +5,3 @@ _site
 vendor
 .bundle
 
-#just for this push
-Dockerfile
-docker-compose.yml
