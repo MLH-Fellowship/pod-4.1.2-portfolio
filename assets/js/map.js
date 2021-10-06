@@ -1,10 +1,12 @@
 ---
 ---
 
-let mymap = L.map("mapid", {
+const mymap = L.map("mapid", {
   center: [40, 34],
   zoom: 2,
 });
+
+const accessToken = {{ site.accessToken | jsonify }}
 
 L.tileLayer(
   "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
@@ -15,13 +17,12 @@ L.tileLayer(
     id: "mapbox/streets-v11",
     tileSize: 512,
     zoomOffset: -1,
-    accessToken:
-      "pk.eyJ1IjoibmJuYXJhZGh5YSIsImEiOiJja2xpdjc0eXQwMHY5MnhwNTVmbjlwY2phIn0.pS57OxYhcCZegQr4psnEdg",
+    accessToken,
   }
 ).addTo(mymap);
 
 
-let fellows = {{ site.data.fellows | jsonify }}
+const fellows = {{ site.data.fellows | jsonify }}
 
 fellows.forEach((fellow) => {
   let marker = L.marker([fellow.coordinates.x, fellow.coordinates.y]).addTo(
