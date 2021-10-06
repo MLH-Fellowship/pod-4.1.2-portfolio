@@ -3,7 +3,7 @@
     "ignoredFiles": [
         "assets/img/special_images/*", 
     ],
-    "aggressiveCompression": "false", 
+    "aggressiveCompression": "true",
     "compressWiki": "true",
     "minKBReduced": null
 }
