@@ -38,6 +38,25 @@ fellows.forEach((fellow) => {
         <h2 class="popup-fellow-description">${fellow.description.substring(0, 101)}</h2>
       </div>
       <div class="popup-tech-container">${fellow.technologies.map((tech) => `<h6 class="popup-tech-badge">${tech}</h6>`).join('')}</div>
+      <div class="popup-socials-container">
+        ${fellow.socials.twitter
+            ? `<a class="popup-social-link" href=${fellow.socials.twitter} target="_blank" rel="noreferrer">
+                <i class="fab fa-3x fa-twitter"></i>
+              </a>`
+            : ''}
+
+        ${fellow.socials.linkedin
+          ? `<a class="popup-social-link" href=${fellow.socials.linkedin} target="_blank" rel="noreferrer">
+              <i class="fab fa-3x fa-linkedin"></i>
+            </a>`
+          : ''}
+
+        ${fellow.socials.github
+          ? `<a class="popup-social-link" href=${fellow.socials.github} target="_blank" rel="noreferrer">
+              <i class="fab fa-3x fa-github"></i>
+            </a>`
+          : ''}
+      </div>
     </div>
   `, {
     maxWidth: 500
