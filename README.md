@@ -71,3 +71,17 @@ If you want to test it locally or add some new features, run the below commands.
 bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
+
+## Development [Windows Environment]
+
+If you want to test it locally or add some new features and you are using windows as your development environment, run the below commands.
+
+- Install ruby [windows section on this link https://www.ruby-lang.org/en/downloads/]
+- Install rails so you can run a server [gem install rails]
+- Install bundler [gem install bundler]
+- run these 2 commands
+
+```
+bundle install --path vendor/bundle
+bundle exec jekyll serve
+```
