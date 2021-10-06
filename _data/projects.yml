@@ -4,15 +4,15 @@
   page-name: project
   author: Mazen Sayed
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  image: https://static.vecteezy.com/system/resources/previews/000/574/981/non_2x/shopping-cart-trolley-icon-vector.jpg
-
+  image: assets/img/shopping-cart-trolley-icon-vector.jpg
+  
 - title: Todo List
   event: MLH Prep Pod Project
   date: Fall 2021  - Batch 4.5
   page-name: project
   author: Ritish Patil
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  image: https://static.vecteezy.com/system/resources/previews/000/554/160/non_2x/check-mark-vector-icon.jpg
+  image: assets/img/check-mark-vector-icon.jpg
 
 - title: iOS App
   event: MLH Prep Pod Project
@@ -20,4 +20,4 @@
   page-name: project
   author: Rehan
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  image: http://assets.stickpng.com/images/5a452598546ddca7e1fcbc80.png
+  image: assets/img/5a452598546ddca7e1fcbc80.png
