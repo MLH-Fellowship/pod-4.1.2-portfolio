@@ -27,5 +27,19 @@ fellows.forEach((fellow) => {
   let marker = L.marker([fellow.coordinates.x, fellow.coordinates.y]).addTo(
     mymap
   );
-  marker.bindPopup(`Hello, My name is ${fellow.name}`);
+
+  marker.bindPopup(`
+    <div class="popup-img-container">
+      <img class="popup-img" src="./assets/img/${fellow.img}" alt=${fellow.name} >
+    </div>
+    <div class="popup-details-container">
+      <div>
+        <h3 class="popup-fellow-name">${fellow.name}</h3>
+        <h2 class="popup-fellow-description">${fellow.description.substring(0, 101)}</h2>
+      </div>
+      <div class="popup-tech-container">${fellow.technologies.map((tech) => `<h6 class="popup-tech-badge">${tech}</h6>`).join('')}</div>
+    </div>
+  `, {
+    maxWidth: 500
+  });
 });
