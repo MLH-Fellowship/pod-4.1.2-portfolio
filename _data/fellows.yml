@@ -1,6 +1,7 @@
-- name: Yashika Sharma
-  img: yashika.jpeg
-  location: New Delhi, India
+- name: Anubhuti
+  img: anubhuti.svg
+  description: Hello! I am Will. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: London, UK
   coordinates:
     x: 51.5074
     y: -0.1278
@@ -13,181 +14,178 @@
     linkedin: https://www.linkedin.com/in/wrussell1999/
     github: https://github.com/wrussell1999
 
-- name: Aditya Sinha
-  img: aditya.png
-  location: New Delhi, India
-  coordinates:
-    x: 51.5074
-    y: -0.1278
-  technologies:
-    - react
-    - typescript
-    - gatsby
-  socials:
-    twitter: https://twitter.com/wrussell1999
-    linkedin: https://www.linkedin.com/in/wrussell1999/
-    github: https://github.com/wrussell1999
-
-- name: Rehan
-  img: rehan.png
-  location: Guwahati, India
-  coordinates:
-    x: 51.5074
-    y: -0.1278
-  technologies:
-    - react
-    - typescript
-    - gatsby
-  socials:
-    twitter: https://twitter.com/wrussell1999
-    linkedin: https://www.linkedin.com/in/wrussell1999/
-    github: https://github.com/wrussell1999
-
-- name: Anubhuti Shruti
-  img: anu.jpg
-  location: Jharkhand, India
-  coordinates:
-    x: 51.5074
-    y: -0.1278
-  technologies:
-    - react
-    - typescript
-    - gatsby
-  socials:
-    twitter: https://twitter.com/wrussell1999
-    linkedin: https://www.linkedin.com/in/wrussell1999/
-    github: https://github.com/wrussell1999
-
-- name: Kevin Cheng
-  img: kevin.jpeg
-  coordinates:
-    x: 51.5074
-    y: -0.1278
-  technologies:
-    - react
-    - typescript
-    - gatsby
-  socials:
-    twitter: https://twitter.com/wrussell1999
-    linkedin: https://www.linkedin.com/in/wrussell1999/
-    github: https://github.com/wrussell1999
-
-- name: Mazen Sayed
-  img: mazen.jpeg
-  location: Cairo, Egypt
-  coordinates:
-    x: 51.5074
-    y: -0.1278
-  technologies:
-    - react
-    - typescript
-    - gatsby
-  socials:
-    twitter: https://twitter.com/wrussell1999
-    linkedin: https://www.linkedin.com/in/wrussell1999/
-    github: https://github.com/wrussell1999
-
-- name: Nikhil BN
-  img: nikhil.jpeg
-  location: Karnataka, india
-  coordinates:
-    x: 51.5074
-    y: -0.1278
-  technologies:
-    - react
-    - typescript
-    - gatsby
-  socials:
-    twitter: https://twitter.com/wrussell1999
-    linkedin: https://www.linkedin.com/in/wrussell1999/
-    github: https://github.com/wrussell1999
-
-- name: Prabin Acharya
-  img: prabin.jpeg
-  location: Kathmandu,Nepal
-  coordinates:
-    x: 51.5074
-    y: -0.1278
-  technologies:
-    - react
-    - typescript
-    - gatsby
-  socials:
-    twitter: https://twitter.com/wrussell1999
-    linkedin: https://www.linkedin.com/in/wrussell1999/
-    github: https://github.com/wrussell1999
-
-- name: Ritesh Patel
-  img: ritesh.jpeg
-  location: Maharashtra, India
-  coordinates:
-    x: 51.5074
-    y: -0.1278
-  technologies:
-    - react
-    - typescript
-    - gatsby
-  socials:
-    twitter: https://twitter.com/wrussell1999
-    linkedin: https://www.linkedin.com/in/wrussell1999/
-    github: https://github.com/wrussell1999
-
-- name: Rohit Kundu
-  img: rohit.jpg
-  location: Urbana, Illinois
-  coordinates:
-    x: 51.5074
-    y: -0.1278
-  technologies:
-    - react
-    - typescript
-    - gatsby
-  socials:
-    twitter: https://twitter.com/wrussell1999
-    linkedin: https://www.linkedin.com/in/wrussell1999/
-    github: https://github.com/wrussell1999
-
-- name: Shubham Aggarwal
-  img: shubham.jpeg
-  location: New Delhi, India
-  coordinates:
-    x: 51.5074
-    y: -0.1278
-  technologies:
-    - react
-    - typescript
-    - gatsby
-  socials:
-    twitter: https://twitter.com/wrussell1999
-    linkedin: https://www.linkedin.com/in/wrussell1999/
-    github: https://github.com/wrussell1999
-
-- name: Stephanie Kim
-  img: swift.jpeg
+- name: kevin
+  img: kevin.svg
+  description: Hello! I am Amanda. I like to build tech communities & currently I'm associated with Major League Hacking
   location: New York City, USA
   coordinates:
-    x: 51.5074
-    y: -0.1278
+    x: 40.7128
+    y: -74.006
   technologies:
-    - react
-    - typescript
-    - gatsby
+    - java
+    - spring-boot
+    - postgre
   socials:
-    twitter: https://twitter.com/wrussell1999
-    linkedin: https://www.linkedin.com/in/wrussell1999/
-    github: https://github.com/wrussell1999
+    linkedin: https://www.linkedin.com/in/amanda-d-avria-287a017/
 
-- name: M. Vignesh Venkataraman
-  img: vignesh.jpeg
-  location: Bangalore, India
+- name: Mazum
+  img: mazum.svg
+  description: Hello! I am Aaron. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: London, UK
   coordinates:
     x: 51.5074
     y: -0.1278
   technologies:
-    - react
+    - node
     - typescript
-    - gatsby
+    - graphql
+    - express
   socials:
-    twitter: https://twitter.com/wrussell1999
-    linkedin: https://www.linkedin.com/in/wrussell1999/
-    github: https://github.com/wrussell1999
+    twitter: https://twitter.com/aaronosher
+    linkedin: https://www.linkedin.com/in/aaronosher/
+    github: https://github.com/aaronosher
+
+- name: Nikhil
+  img: Nikhil.svg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: New York City, USA
+  coordinates:
+    x: 40.7128
+    y: -74.006
+  technologies:
+    - python
+    - scikit learn
+    - tensorflow
+  socials:
+    twitter: https://twitter.com/swiftalphaone
+    linkedin: https://www.linkedin.com/in/theycallmeswift/
+    github: https://github.com/theycallmeswift
+
+- name: Aditya
+  img: aditya.svg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: New York City, USA
+  coordinates:
+    x: 40.7128
+    y: -74.006
+  technologies:
+    - python
+    - scikit learn
+    - tensorflow
+  socials:
+    twitter: https://twitter.com/swiftalphaone
+    linkedin: https://www.linkedin.com/in/theycallmeswift/
+    github: https://github.com/theycallmeswift    
+
+- name: Prabin
+  img: prabin.svg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: New York City, USA
+  coordinates:
+    x: 40.7128
+    y: -74.006
+  technologies:
+    - python
+    - scikit learn
+    - tensorflow
+  socials:
+    twitter: https://twitter.com/swiftalphaone
+    linkedin: https://www.linkedin.com/in/theycallmeswift/
+    github: https://github.com/theycallmeswift    
+
+- name: Rehan
+  img: Rehan.svg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: New York City, USA
+  coordinates:
+    x: 40.7128
+    y: -74.006
+  technologies:
+    - python
+    - scikit learn
+    - tensorflow
+  socials:
+    twitter: https://twitter.com/swiftalphaone
+    linkedin: https://www.linkedin.com/in/theycallmeswift/
+    github: https://github.com/theycallmeswift  
+
+- name: Retish
+  img: retish.svg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: New York City, USA
+  coordinates:
+    x: 40.7128
+    y: -74.006
+  technologies:
+    - python
+    - scikit learn
+    - tensorflow
+  socials:
+    twitter: https://twitter.com/swiftalphaone
+    linkedin: https://www.linkedin.com/in/theycallmeswift/
+    github: https://github.com/theycallmeswift    
+
+- name: Subham
+  img: subham.svg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: New York City, USA
+  coordinates:
+    x: 40.7128
+    y: -74.006
+  technologies:
+    - python
+    - scikit learn
+    - tensorflow
+  socials:
+    twitter: https://twitter.com/swiftalphaone
+    linkedin: https://www.linkedin.com/in/theycallmeswift/
+    github: https://github.com/theycallmeswift  
+
+- name: Vignesh
+  img: Vignesh.svg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: New York City, USA
+  coordinates:
+    x: 40.7128
+    y: -74.006
+  technologies:
+    - python
+    - scikit learn
+    - tensorflow
+  socials:
+    twitter: https://twitter.com/swiftalphaone
+    linkedin: https://www.linkedin.com/in/theycallmeswift/
+    github: https://github.com/theycallmeswift    
+
+- name: Nikhil
+  img: Nikhil.svg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: New York City, USA
+  coordinates:
+    x: 40.7128
+    y: -74.006
+  technologies:
+    - python
+    - scikit learn
+    - tensorflow
+  socials:
+    twitter: https://twitter.com/swiftalphaone
+    linkedin: https://www.linkedin.com/in/theycallmeswift/
+    github: https://github.com/theycallmeswift    
+
+
+- name: amanda
+  img: amanda.jpg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: New York City, USA
+  coordinates:
+    x: 40.7128
+    y: -74.006
+  technologies:
+    - python
+    - scikit learn
+    - tensorflow
+  socials:
+    twitter: https://twitter.com/swiftalphaone
+    linkedin: https://www.linkedin.com/in/theycallmeswift/
+    github: https://github.com/theycallmeswift   
