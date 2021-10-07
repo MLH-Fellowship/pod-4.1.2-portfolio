@@ -1,4 +1,26 @@
-<header class="nav-bar">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./assets/js/loader.js" type="text/javascript"></script>
+
+<header class="nav-bar" >
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+        </div>
+    </div>
     <div class="nav-content">
         <a href="{{ '/' | relative_url }}">
             <div class="nav-logo">
@@ -8,3 +30,9 @@
         
     </div>
 </header>
+
+<script>
+  window.addEventListener('load',function(){
+    document.querySelector('.loader').style.display='none'
+  });
+ </script>   
