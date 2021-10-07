@@ -6,12 +6,12 @@
   img: aditya.png
   location: New Delhi, India
 
-- name: Abu Sayid Choudhury
-  img: abu_sayid.png
-  location: London, UK
+- name: Rehan
+  img: rehan.png
+  location: Guwahati, india
 
 - name: Anubhuti Shruti
-  img: anubhuti.jpg
+  img: anu.jpg
   location: Jharkhand, India
 
 - name: Kevin Cheng
@@ -35,7 +35,7 @@
   location: Maharashtra, India
 
 - name: Rohit Kundu
-  img: swift.jpeg
+  img: rohit.jpg
   location: Urbana, Illinois
 
 - name: Shubham Aggarwal
