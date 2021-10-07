@@ -84,19 +84,20 @@ sudo docker-compose up
 
 Ruby is often already installed in Mac.
 You can check the version and if it's installed with:
-
-- ruby-v
-
+```
+ ruby-v
+```
 You can check bundler with:
-
-- bundler-v
-
+```
+bundler-v
+```
 If you don't have it, you can install with:
-
-- brew install ruby
-- gem install bundler
-
+```
+ brew install ruby
+ gem install bundler
+```
 To run:
-
-- bundle config set --local path 'vendor/bundle'
-- bundle exec jekyll serve
+```
+ bundle config set --local path 'vendor/bundle'
+ bundle exec jekyll serve
+```
