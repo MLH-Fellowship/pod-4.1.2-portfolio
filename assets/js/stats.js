@@ -1,39 +1,11 @@
-"use strict";
-import React from "https://unpkg.com/react@17/umd/react.development.js";
-import ReactDOM from "https://unpkg.com/react-dom@17/umd/react-dom.development.js";
-
 // Libraries
 import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
-import { Bar } from "https://cdnjs.cloudflare.com/ajax/libs/react-chartjs-2/3.0.5/chart.d.ts";
 
+const octokit = new Octokit({
+  // Add GitHub Access Token
+  auth: "",
+});
 const createElement = React.createElement;
-
-const data = {
-  labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
-  datasets: [
-    {
-      label: "# of Votes",
-      data: [12, 19, 3, 5, 2, 3],
-      backgroundColor: [
-        "rgba(255, 99, 132, 0.2)",
-        "rgba(54, 162, 235, 0.2)",
-        "rgba(255, 206, 86, 0.2)",
-        "rgba(75, 192, 192, 0.2)",
-        "rgba(153, 102, 255, 0.2)",
-        "rgba(255, 159, 64, 0.2)",
-      ],
-      borderColor: [
-        "rgba(255, 99, 132, 1)",
-        "rgba(54, 162, 235, 1)",
-        "rgba(255, 206, 86, 1)",
-        "rgba(75, 192, 192, 1)",
-        "rgba(153, 102, 255, 1)",
-        "rgba(255, 159, 64, 1)",
-      ],
-      borderWidth: 1,
-    },
-  ],
-};
 
 const options = {
   indexAxis: "y",
@@ -52,7 +24,7 @@ const options = {
     },
     title: {
       display: true,
-      text: "Chart.js Horizontal Bar Chart",
+      text: "Mocking Sparrows Contribution",
       color: "rgba(255,255, 255, 0.8)",
     },
   },
@@ -71,79 +43,163 @@ const options = {
 };
 
 const PodStats = () => {
-  console.log(Octokit);
+  const canvasRef = React.useRef(null);
+  const [repoDetails, setRepoDetails] = React.useState({
+    commits: "loading",
+    openedPR: "loading",
+    mergedPR: "loading",
+    openedIssues: "loading",
+    closedIssues: "loading",
+  });
 
-  return /*#__PURE__*/ createElement(
+  React.useEffect(() => {
+    const fetchDetails = async () => {
+      const { repository } = await octokit.graphql(`
+        query {
+          repository (name:"pod-4.1.2-portfolio", owner:"MLH-Fellowship") {
+            name
+            closedIssues: issues (states:CLOSED) {
+              totalCount
+            }
+            openedIssues: issues (states:OPEN) {
+              totalCount
+            }
+            openedPR: pullRequests(states:OPEN) {
+              totalCount
+            }
+            mergedPR: pullRequests(states:MERGED) {
+              totalCount
+            }
+            object(expression: "main") {
+              ... on Commit {
+                history {
+                  totalCount
+                  nodes {
+                    additions
+                    committedDate
+
+                    author {
+                      name
+                      avatarUrl
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      `);
+
+      let commitCount = {};
+      repository.object.history.nodes.forEach(({ author }) => {
+        commitCount[author.name] = commitCount[author.name]
+          ? commitCount[author.name] + 1
+          : 1;
+      });
+
+      setRepoDetails((current) => ({
+        ...current,
+        commits: repository.object.history.totalCount,
+        openedPR: repository.openedPR.totalCount,
+        mergedPR: repository.mergedPR.totalCount,
+        openedIssues: repository.openedIssues.totalCount,
+        closedIssues: repository.closedIssues.totalCount,
+      }));
+
+      const ctx = canvasRef.current.getContext("2d");
+      const data = {
+        labels: Object.keys(commitCount),
+        datasets: [
+          {
+            label: "# of Commits",
+            data: Object.keys(commitCount).map((key) => commitCount[key]),
+            backgroundColor: "rgba(255, 99, 132, 0.2)",
+            borderColor: "rgba(255, 99, 132, 1)",
+            borderWidth: 1,
+          },
+        ],
+      };
+
+      new Chart(ctx, {
+        type: "bar",
+        data,
+        options,
+      });
+    };
+
+    fetchDetails();
+  }, []);
+
+  return createElement(
     "div",
     {
       className: "pod-stats-container",
     },
-    /*#__PURE__*/ createElement(
+    createElement(
       "div",
       {
         className: "pod-stats-child-container",
       },
-      /*#__PURE__*/ createElement(
+      createElement(
         "h2",
         {
           className: "pod-stats-heading",
         },
         "MLH Prep: Pod 4.1.2 aka Mocking Sparrows"
       ),
-      /*#__PURE__*/ createElement(
+      createElement(
         "div",
         {
           className: "details-adjuster",
         },
-        /*#__PURE__*/ createElement(
+        createElement(
           "div",
           {
             className: "repository-stats-container",
           },
-          /*#__PURE__*/ createElement(
+          createElement(
             "h2",
             {
               className: "pod-stats-para",
             },
-            "Total Commits: 20"
+            `Total Commits:     ${repoDetails.commits}`
           ),
-          /*#__PURE__*/ createElement(
+          createElement(
             "h2",
             {
               className: "pod-stats-para",
             },
-            "Open Pull Requests: 20"
+            `Pull Requests Opened:     ${repoDetails.openedPR}`
           ),
-          /*#__PURE__*/ createElement(
+          createElement(
             "h2",
             {
               className: "pod-stats-para",
             },
-            "Closed Pull Requests: 20"
+            `Pull Requests Merged:     ${repoDetails.mergedPR}`
           ),
-          /*#__PURE__*/ createElement(
+          createElement(
             "h2",
             {
               className: "pod-stats-para",
             },
-            "Open Issues: 20"
+            `Open Issues:     ${repoDetails.openedIssues}`
           ),
-          /*#__PURE__*/ createElement(
+          createElement(
             "h2",
             {
               className: "pod-stats-para",
             },
-            "Closed Issues: 20"
+            `Closed Issues:     ${repoDetails.closedIssues}`
           )
         ),
-        /*#__PURE__*/ createElement(
+        createElement(
           "div",
           {
             className: "pod-leaderboard-container",
           },
-          /*#__PURE__*/ createElement(Bar, {
-            data: data,
-            options: options,
+          createElement("canvas", {
+            ref: canvasRef,
           })
         )
       )

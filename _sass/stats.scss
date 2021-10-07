@@ -2,6 +2,7 @@
   width: 100%;
   max-width: 100vw;
   overflow-x: hidden;
+  margin-top: 2rem;
 }
 
 .pod-stats-child-container {
@@ -42,6 +43,7 @@
   margin-top: 0.5rem;
   padding: 0;
   padding-left: 1rem;
+  text-align: left;
 }
 
 .pod-leaderboard-container {
@@ -59,5 +61,6 @@
 
   .pod-leaderboard-container {
     width: 95%;
+    margin-top: 1rem;
   }
 }
