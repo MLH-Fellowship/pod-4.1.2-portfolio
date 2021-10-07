@@ -1,0 +1,9 @@
+{
+    "schedule": "daily",
+    "ignoredFiles": [
+        "assets/img/special_images/*", 
+    ],
+    "aggressiveCompression": "true",
+    "compressWiki": "true",
+    "minKBReduced": null
+}

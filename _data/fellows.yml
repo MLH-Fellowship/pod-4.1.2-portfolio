@@ -1,15 +1,62 @@
 - name: Will
   img: logo.jpg
+  description: Hello! I am Will. I like to build tech communities & currently I'm associated with Major League Hacking
   location: London, UK
+  coordinates:
+    x: 51.5074
+    y: -0.1278
+  technologies:
+    - react
+    - typescript
+    - gatsby
+  socials:
+    twitter: https://twitter.com/wrussell1999
+    linkedin: https://www.linkedin.com/in/wrussell1999/
+    github: https://github.com/wrussell1999
 
 - name: Amanda
   img: amanda.jpg
+  description: Hello! I am Amanda. I like to build tech communities & currently I'm associated with Major League Hacking
   location: New York City, USA
+  coordinates:
+    x: 40.7128
+    y: -74.006
+  technologies:
+    - java
+    - spring-boot
+    - postgre
+  socials:
+    linkedin: https://www.linkedin.com/in/amanda-d-avria-287a017/
 
 - name: Aaron
   img: aaron.jpg
+  description: Hello! I am Aaron. I like to build tech communities & currently I'm associated with Major League Hacking
   location: London, UK
+  coordinates:
+    x: 51.5074
+    y: -0.1278
+  technologies:
+    - node
+    - typescript
+    - graphql
+    - express
+  socials:
+    twitter: https://twitter.com/aaronosher
+    linkedin: https://www.linkedin.com/in/aaronosher/
+    github: https://github.com/aaronosher
 
 - name: Swift
   img: swift.jpg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: New York City, USA
+  coordinates:
+    x: 40.7128
+    y: -74.006
+  technologies:
+    - python
+    - scikit learn
+    - tensorflow
+  socials:
+    twitter: https://twitter.com/swiftalphaone
+    linkedin: https://www.linkedin.com/in/theycallmeswift/
+    github: https://github.com/theycallmeswift

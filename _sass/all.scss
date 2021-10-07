@@ -1,10 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
-@import "navbar";
-@import "profile";
-@import "page";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import 'navbar';
+@import 'profile';
+@import 'page';
+@import 'footer';
+@import 'map';
 @import "stats";
 
+
+/*Following line was added to avoid white space after footer*/
+html{
+    height: 100%;
+}
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -12,21 +19,21 @@
 }
 
 @media only screen and (max-width: 1500px) {
-  .card-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media only screen and (max-width: 1000px) {
-  .card-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media only screen and (max-width: 768px) {
-  .card-container {
-    grid-template-columns: 1fr;
-  }
+    .card-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 body {
@@ -85,7 +92,7 @@ a {
   margin-right: 20px;
   padding: 10px;
 
-  img {
-    width: 100%;
-  }
+    img {
+        width: 100%;
+    }
 }

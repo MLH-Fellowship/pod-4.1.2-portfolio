@@ -65,6 +65,8 @@ layout: page
 
 ## Development
 
+### Build locally
+
 If you want to test it locally or add some new features, run the below commands. Make sure to have Ruby and Bundler installed.
 
 ```
@@ -72,7 +74,7 @@ bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
 
-## Setting up environment variables
+### Setting up environment variables
 - The project uses GitHub Personal Access Token to fetch repository details from the GitHub API
 - You can generate an access token by following the steps in the given link:
   https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
@@ -86,4 +88,10 @@ GITHUB_ACCESS_TOKEN=your-generated-token
 
 ```
 export GITHUB_ACCESS_TOKEN=your-generated-token
+```
+
+### Build on Docker
+
+```
+sudo docker-compose up
 ```
