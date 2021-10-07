@@ -1,3 +1,9 @@
+<script
+src="https://kit.fontawesome.com/fe697e6552.js"
+crossorigin="anonymous"
+></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
 <div class="profile">
     <div class="profile-picture">
         <h1>{{ site.title }}</h1>
@@ -8,9 +14,35 @@
         <div class="fellows">
             <h2>Fellows</h2>
         {% for item in site.data.fellows %}
+        <div class="fellow">
             <img src="./assets/img/{{ item.img }}">
+            <div class="about">
+                <div class="name">
+                    <h3>{{item.name}} <h3>
+                </div>
+                <div class="other-info">
+                    <i class="fas fa-2x fa-map-marker-alt"></i>
+                    <p>{{item.location}} <p>
+                </div>
+                <div class="socials">    
+                <a class="github" href="{{item.socials.github}}"><i class="fab fa-github"></i></a>
+                <a class="instagram" href=""><i class="fab fa-instagram"></i></a>
+                <a class="linkedin" href="{{item.socials.linkedin}}"><i class="fab fa-linkedin-in"></i></a>
+                <a class="facebook" href=""><i class="fab fa-facebook-f"></i></a>
+
+            </div>
+        </div>
+
+
+
+        </div>
         {% endfor %}
     </div>
 </div>
 
 </div>
+
+<script>
+    ScrollReveal({ distance: '60px' });
+    ScrollReveal({reset:true}).reveal('.fellow',  { origin: 'bottom' });
+</script>
