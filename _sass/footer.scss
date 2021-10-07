@@ -5,11 +5,12 @@
 footer{
   display: grid;
   grid-template-areas: 'auto auto auto';
-  background-color: #133667;
+  background: linear-gradient(90deg, #757f9a 0%, #d7dde8 100%);
   font-family: "Open Sans", serif;
   font-weight: bold;
   font-size: 2vh;
-  padding: 1vh;
+  padding: 7vh 1vh;
+  margin-top: 30px;
 }
 
 footer > div {
@@ -82,3 +83,4 @@ footer > div {
     display: inline-block;
   }
 }
+
