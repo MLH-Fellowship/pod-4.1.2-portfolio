@@ -1,9 +1,13 @@
+---
+---
+
 // Libraries
 import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
 
+const auth = {{site.env.GITHUB_ACCESS_TOKEN | jsonify}}
+
 const octokit = new Octokit({
-  // Add GitHub Access Token
-  auth: "",
+  auth,
 });
 const createElement = React.createElement;
 
