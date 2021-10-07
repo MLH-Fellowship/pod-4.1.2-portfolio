@@ -8,8 +8,12 @@ footer{
   background-color: #133667;
   font-family: "Open Sans", serif;
   font-weight: bold;
-  text-align: justify;
   font-size: 2vh;
+  padding: 1vh;
+}
+
+footer > div {
+  margin: 15px;
 }
 
 .prep-logo img{
@@ -25,16 +29,15 @@ footer{
   color: rosybrown;
 }
 .location{
-  margin-top: 4vh;
+  margin-top: 2.5vh;
 }
 
 .pod-quote{
-  margin-left: 2vw;
-  padding-bottom: 1vw;
+  margin-left: 25%;
   font-family: 'Lobster', cursive;
-  font-size: 4vh;
+  font-size: 2rem;
   font-weight: bold;
-
+  text-align: center;
 }
 
 .links a{
@@ -51,44 +54,31 @@ footer{
 }
 
 @media (max-width: 1050px) {
-  footer{
+  footer {
     display: grid;
     grid-template-areas: 'auto';
     width: 80%;
     margin: auto;
 
   }
-  #sparrows{
+
+  #sparrows {
     width: 70%;
     margin: auto;
-    font-size: 3.5vh;
-  }
-  #location-links{
-    display: grid;
-    grid-template-areas: 'auto';
-    }
-
-  .location, .pod-quote{
-
-    width: 80%;
-    margin: auto
-  }
-  .pod-quote{
     font-size: 3vh;
   }
-  .teaminfo, .memberinfo{
+  #location-links {
+    display: grid;
+    grid-template-areas: 'auto';
+    font-size: 1.5vh;
+    width: 70%;
+    margin: auto;
+  }
+  .pod-quote {
+    margin-left: unset;
+    font-size: 1.75rem;
+  }
+  .teaminfo, .memberinfo {
     display: inline-block;
-  }
-  .social-handles{
-    width: 25%;
-    margin-left:35%;
-    margin-bottom: 20px;
-  }
-  .social-handles {
-    div{
-      a{
-        margin-left: 10%;
-      }
-    }
   }
 }
