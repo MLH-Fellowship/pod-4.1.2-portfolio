@@ -1,51 +1,193 @@
 - name: Yashika Sharma
   img: yashika.jpeg
   location: New Delhi, India
+  coordinates:
+    x: 51.5074
+    y: -0.1278
+  technologies:
+    - react
+    - typescript
+    - gatsby
+  socials:
+    twitter: https://twitter.com/wrussell1999
+    linkedin: https://www.linkedin.com/in/wrussell1999/
+    github: https://github.com/wrussell1999
 
 - name: Aditya Sinha
   img: aditya.png
   location: New Delhi, India
+  coordinates:
+    x: 51.5074
+    y: -0.1278
+  technologies:
+    - react
+    - typescript
+    - gatsby
+  socials:
+    twitter: https://twitter.com/wrussell1999
+    linkedin: https://www.linkedin.com/in/wrussell1999/
+    github: https://github.com/wrussell1999
 
 - name: Rehan
   img: rehan.png
-  location: Guwahati, india
+  location: Guwahati, India
+  coordinates:
+    x: 51.5074
+    y: -0.1278
+  technologies:
+    - react
+    - typescript
+    - gatsby
+  socials:
+    twitter: https://twitter.com/wrussell1999
+    linkedin: https://www.linkedin.com/in/wrussell1999/
+    github: https://github.com/wrussell1999
 
 - name: Anubhuti Shruti
   img: anu.jpg
   location: Jharkhand, India
+  coordinates:
+    x: 51.5074
+    y: -0.1278
+  technologies:
+    - react
+    - typescript
+    - gatsby
+  socials:
+    twitter: https://twitter.com/wrussell1999
+    linkedin: https://www.linkedin.com/in/wrussell1999/
+    github: https://github.com/wrussell1999
 
 - name: Kevin Cheng
   img: kevin.jpeg
-  location: New York City, USA
+  coordinates:
+    x: 51.5074
+    y: -0.1278
+  technologies:
+    - react
+    - typescript
+    - gatsby
+  socials:
+    twitter: https://twitter.com/wrussell1999
+    linkedin: https://www.linkedin.com/in/wrussell1999/
+    github: https://github.com/wrussell1999
 
 - name: Mazen Sayed
   img: mazen.jpeg
   location: Cairo, Egypt
+  coordinates:
+    x: 51.5074
+    y: -0.1278
+  technologies:
+    - react
+    - typescript
+    - gatsby
+  socials:
+    twitter: https://twitter.com/wrussell1999
+    linkedin: https://www.linkedin.com/in/wrussell1999/
+    github: https://github.com/wrussell1999
 
 - name: Nikhil BN
   img: nikhil.jpeg
   location: Karnataka, india
+  coordinates:
+    x: 51.5074
+    y: -0.1278
+  technologies:
+    - react
+    - typescript
+    - gatsby
+  socials:
+    twitter: https://twitter.com/wrussell1999
+    linkedin: https://www.linkedin.com/in/wrussell1999/
+    github: https://github.com/wrussell1999
 
 - name: Prabin Acharya
   img: prabin.jpeg
   location: Kathmandu,Nepal
+  coordinates:
+    x: 51.5074
+    y: -0.1278
+  technologies:
+    - react
+    - typescript
+    - gatsby
+  socials:
+    twitter: https://twitter.com/wrussell1999
+    linkedin: https://www.linkedin.com/in/wrussell1999/
+    github: https://github.com/wrussell1999
 
 - name: Ritesh Patel
   img: ritesh.jpeg
   location: Maharashtra, India
+  coordinates:
+    x: 51.5074
+    y: -0.1278
+  technologies:
+    - react
+    - typescript
+    - gatsby
+  socials:
+    twitter: https://twitter.com/wrussell1999
+    linkedin: https://www.linkedin.com/in/wrussell1999/
+    github: https://github.com/wrussell1999
 
 - name: Rohit Kundu
   img: rohit.jpg
   location: Urbana, Illinois
+  coordinates:
+    x: 51.5074
+    y: -0.1278
+  technologies:
+    - react
+    - typescript
+    - gatsby
+  socials:
+    twitter: https://twitter.com/wrussell1999
+    linkedin: https://www.linkedin.com/in/wrussell1999/
+    github: https://github.com/wrussell1999
 
 - name: Shubham Aggarwal
   img: shubham.jpeg
   location: New Delhi, India
+  coordinates:
+    x: 51.5074
+    y: -0.1278
+  technologies:
+    - react
+    - typescript
+    - gatsby
+  socials:
+    twitter: https://twitter.com/wrussell1999
+    linkedin: https://www.linkedin.com/in/wrussell1999/
+    github: https://github.com/wrussell1999
 
 - name: Stephanie Kim
   img: swift.jpeg
   location: New York City, USA
+  coordinates:
+    x: 51.5074
+    y: -0.1278
+  technologies:
+    - react
+    - typescript
+    - gatsby
+  socials:
+    twitter: https://twitter.com/wrussell1999
+    linkedin: https://www.linkedin.com/in/wrussell1999/
+    github: https://github.com/wrussell1999
 
 - name: M. Vignesh Venkataraman
   img: vignesh.jpeg
   location: Bangalore, India
+  coordinates:
+    x: 51.5074
+    y: -0.1278
+  technologies:
+    - react
+    - typescript
+    - gatsby
+  socials:
+    twitter: https://twitter.com/wrussell1999
+    linkedin: https://www.linkedin.com/in/wrussell1999/
+    github: https://github.com/wrussell1999
