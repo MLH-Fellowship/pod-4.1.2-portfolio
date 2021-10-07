@@ -3,8 +3,13 @@
 @import 'navbar';
 @import 'profile';
 @import 'page';
+@import 'footer';
 @import 'map';
 
+/*Following line was added to avoid white space after footer*/
+html{
+    height: 100%;
+}
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
