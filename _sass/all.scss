@@ -3,11 +3,8 @@
 @import 'navbar';
 @import 'profile';
 @import 'page';
-@import 'footer';
+@import 'map';
 
-html{
-    height: 100%;
-}
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -15,21 +12,21 @@ html{
 }
 
 @media only screen and (max-width: 1500px) {
-  .card-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media only screen and (max-width: 1000px) {
-  .card-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media only screen and (max-width: 768px) {
-  .card-container {
-    grid-template-columns: 1fr;
-  }
+    .card-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 
