@@ -6,7 +6,7 @@
 @import 'footer';
 @import 'map';
 @import "stats";
-
+@import 'project';
 
 /*Following line was added to avoid white space after footer*/
 html{
@@ -45,10 +45,14 @@ body {
     margin-bottom: 50px;
 }
 h2 {
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-weight: 700;
-  text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size:5vh;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    padding: 10px
 }
 
 .card {
