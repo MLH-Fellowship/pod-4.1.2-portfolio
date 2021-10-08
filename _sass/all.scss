@@ -5,7 +5,7 @@
 @import 'page';
 @import 'footer';
 @import 'map';
-
+@import 'project';
 /*Following line was added to avoid white space after footer*/
 html{
     height: 100%;
@@ -42,8 +42,12 @@ body {
 h2 {
     margin-bottom: 20px;
     margin-top: 20px;
-    font-weight: 700;
+    font-size:5vh;
+    align-content: center;
     text-align: center;
+    font-weight: bold;
+    color: blue;
+    padding: 10px
 }
 
 .card {
