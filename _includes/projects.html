@@ -1,19 +1,39 @@
-<h2>Projects</h2>
-<div class="card-container">
+<h2 style="font-size:5vh;align-content: center;text-align: center;font-weight: bold;color: blue;padding: 10px">Projects</h2>
+<div class ="project-container">
     {% for item in site.data.projects %}
-    {% if item.page-name %}
-    <a href="/projects/{{ item.page-name }}">
-    {% else %}
-    <a>
-    {% endif %}
-      <div class="card">
-        <div class="info">
-          <p class="title">{{ item.title }}</p>
-          <p class="location">{{ item.event }}</p>
-          <p class="dates">{{ item.date }}</p>
-        </div>
-      </div>
-    </a>
+    <div>
+        <figure class="project">
+            <div class="image"><img src="{{ item.image-link}}" alt="{{ item.alt-value}}" height="400px" /></div>
+            <figcaption>
+                <a style="color: unset;" href="/projects/{{ item.page-name }}"><h3>{{ item.title }}- {{ item.event }}</h3></a>
+                <p>
+                    Created by MLH Prep Pod 4.1.2
+                    <br>
+                    {{ item.date }}
+                    <br>
+                <div style="margin: auto;width: 70%">
+                    <a href="https:/github.com/{{ item.github }}">
+                        <img title="See source code" alt="github repo link" src="https://img.icons8.com/color/48/000000/github--v1.png"/>                    </a>
+
+                    <a href="/projects/{{ item.page-name }}">
+                        <img title="See more info on project page" alt="See more Information" src="https://img.icons8.com/color/48/000000/overview-pages-1.png"/>
+                    </a>
+
+                    <a href="https:/github.com/{{ item.demo-link }}">
+                        <img title="See the demo" alt="Demo" src="https://img.icons8.com/color/48/000000/video.png"/>
+                    </a>
+                </div>
+                </p>
+
+            </figcaption>
+        </figure>
+    </div>
+
     {% endfor %}
-  </div>
+
+</div>
   
+
+<script>
+  ScrollReveal({reset:true}).reveal('.card');
+</script>
