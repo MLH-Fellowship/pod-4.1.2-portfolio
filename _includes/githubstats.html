@@ -1,0 +1,62 @@
+
+<style>
+
+  #portfolio-look{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin: 10px;
+    padding: 5px;
+  }
+  .stats-slides > img, .stats-slides > a > img{
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    margin: 20px;
+
+  }
+</style>
+
+<h2 style="float: left;font-size:5vh;font-weight: bold;color: blue;padding: 10px;margin: auto;width: 100%">The Portfolio Statistics</h2>
+
+
+<div style="margin: auto;width: 25%">
+  <div>
+    <a href="https://github.com/MLH-Fellowship/pod-4.1.2-portfolio">
+      <img alt="portfolio-look" id ="portfolio-look" src="https://github-readme-stats.vercel.app/api/pin/?username=MLH-Fellowship&repo=pod-4.1.2-portfolio" />
+    </a>
+  </div>
+  <div class="stats-slides">
+    <img class="repo-size" src="https://img.shields.io/github/repo-size/MLH-Fellowship/pod-4.1.2-portfolio?style=for-the-badge" style="margin-left: 20%"/>
+
+  </div>
+  <div class="stats-slides">
+    <img class="repo-total-contributors" alt="Total number of contributors" src="https://img.shields.io/github/contributors/MLH-Fellowship/pod-4.1.2-portfolio?style=for-the-badge">
+    <img class="last-commit-when" alt="When wa the last commit done" src="https://img.shields.io/github/last-commit/MLH-Fellowship/pod-4.1.2-portfolio?style=for-the-badge">
+  </div>
+  <div class="stats-slides">
+    <a href="https://github.com/MLH-Fellowship/pod-4.1.2-portfolio/issues">
+      <img alt="issues in pipeline" src="https://img.shields.io/github/issues/MLH-Fellowship/pod-4.1.2-portfolio?style=for-the-badge" />
+    </a>
+
+    <a href="https://github.com/MLH-Fellowship/pod-4.1.2-portfolio/pulls">
+      <img alt="pull request in pipeline" src="https://img.shields.io/github/issues-pr/MLH-Fellowship/pod-4.1.2-portfolio?style=for-the-badge" />
+    </a>
+  </div>
+</div>
+
+
+
+<script>
+  let myIndex = 0;
+  carousel();
+
+  function carousel() {
+    let i;
+    let x = document.getElementsByClassName("stats-slides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 5500); // Change image every 2 seconds
+  }
+</script>
