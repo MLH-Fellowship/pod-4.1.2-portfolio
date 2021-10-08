@@ -1,0 +1,154 @@
+.mapContainer {
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+h2{
+  color: #324e63;
+  font-size: 2rem;
+}
+#mapid {
+  height: 100%;
+  width: 70%;
+  text-align: center;
+  border-radius: 12px;
+
+  @media (max-width: 860px) {
+    width: 95%;
+  }
+}
+
+// Custom Leaflet popup styling
+.leaflet-popup {
+  background: transparent;
+  border-radius: 12px;
+}
+
+.leaflet-popup-content-wrapper {
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  background: linear-gradient(
+    135deg,
+    rgba(94, 131, 116, 0.2),
+    rgba(23, 51, 41, 0.2)
+  );
+  padding: 0;
+}
+
+.leaflet-popup-content {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popup-img-container {
+  width: 35%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.popup-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.popup-details-container {
+  background: transparent;
+  width: 70%;
+  height: 250px;
+
+  padding: 15px;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.popup-fellow-name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "Poppins", sans-serif;
+
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+
+.popup-fellow-description {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  font-family: "Poppins", sans-serif;
+
+  margin: 0px;
+  margin-top: 5px;
+  padding: 0px;
+  text-align: left;
+}
+
+.popup-tech-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.popup-tech-badge {
+  margin: 0;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  padding: 4px 12px;
+  border-radius: 50px;
+  background-color: #ffffff;
+
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.popup-socials-container {
+  width: 100%;
+  margin: 0;
+  margin-top: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-social-link {
+  color: #bdbdbd;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.fab.fa-3x {
+  color: #f1f1f1;
+  font-size: 15px;
+}
+

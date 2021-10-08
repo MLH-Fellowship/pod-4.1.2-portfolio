@@ -1,15 +1,188 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
+- name: Aditya
+  url: /fellow/Aditya
+  img: aditya.png
+  description: Hello! I am Will. I like to build tech communities & currently I'm associated with Major League Hacking.
+  location: New Delhi, India
+  coordinates:
+    x: 28.644800
+    y: 77.216721
+  technologies:
+    - python
+  socials:
+    twitter:
+    linkedin: https://www.linkedin.com/in/adityanarayansinha/
+    github: https://github.com/0x0elliot
 
-- name: Amanda
+- name: Rehan
+  url: /fellow/Rehan
+  img: Rehan.png
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: Guwahati, India
+  coordinates:
+    x: 26.148043
+    y: 91.731377
+  technologies:
+    - python
+    - scikit learn
+    - tensorflow
+  socials:
+    twitter:
+    linkedin: https://www.linkedin.com/in/rehan-choudhury-66842a164/
+    github: https://github.com/Abusayid693
+
+- name: Anubhuti
+  url: /fellow/Anubhuti
+  img: anubhuti.jpg
+  description: Hello! I am Will. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: London, UK
+  coordinates:
+    x: 22.805618
+    y: 86.203110
+  technologies:
+    - Java
+    - C++
+    - Python
+  socials:
+    twitter:
+    linkedin: https://www.linkedin.com/in/anubhuti-s-7164b81a4/
+    github: https://github.com/Anu-123-gif
+
+- name: Kevin
+  url: /fellow/Kevin
+  img: kevin.jpeg
+  description: Hello! I am Amanda. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: New York City, USA
+  coordinates:
+    x: 40.730610
+    y: -73.935242
+  technologies:
+    - java
+  socials:
+    linkedin: https://www.linkedin.com/in/amanda-d-avria-287a017/
+    github: https://github.com/kevinchengny
+
+- name: Mazen
+  url: /fellow/Mazen
+  img: mazen.jpeg
+  description: Hello! I am Aaron. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: Cairo, Egypt
+  coordinates:
+    x: 30.033333
+    y: 31.233334
+  technologies:
+    - python
+    - javascript
+  socials:
+    linkedin: https://www.linkedin.com/in/mazen-sayed-440016193/
+    github: https://github.com/Mazensayed91
+
+- name: Nikhil
+  url: /fellow/Nikhil
+  img: Nikhil.jpeg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: Karnataka, India
+  coordinates:
+    x: 15.317277
+    y: 75.713890
+  technologies:
+    - typescript
+    - c++
+  socials:
+    twitter:
+    linkedin: https://www.linkedin.com/in/nikhil-bn/
+    github: https://github.com/nbnaradhya
+
+- name: Prabin
+  url: /fellow/Prabin
+  img: prabin.jpeg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: Kathmandu, Nepal
+  coordinates:
+    x: 27.700001
+    y: 85.333336
+  technologies:
+    - javascript
+    - python
+    - c++
+  socials:
+    twitter: https://twitter.com/Pra6in
+    linkedin: https://www.linkedin.com/in/pra6in
+    github: https://github.com/prabin-acharya
+
+- name: Ritesh
+  url: /fellow/Ritesh
+  img: ritesh.jpeg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: Maharashtra, India
+  coordinates:
+    x: 19.663280
+    y: 75.300293
+  technologies:
+    - javascript
+    - typescript
+    - react
+  socials:
+    twitter: https://twitter.com/riteshsp2000
+    linkedin: https://www.linkedin.com/in/riteshsp2000/
+    github: https://github.com/riteshsp2000
+
+- name: Shubham
+  url: /fellow/Shubham
+  img: shubham.jpeg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: New Delhi, India
+  coordinates:
+    x: 28.644800
+    y: 77.216721
+  technologies:
+    - java
+    - javascript
+  socials:
+    twitter:
+    linkedin: https://www.linkedin.com/in/shubham0324/
+    github: https://github.com/shubham0324
+
+- name: Vignesh
+  url: /fellow/Vignesh
+  img: Vignesh.jpeg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: Bangalore, India
+  coordinates:
+    x: 12.972442
+    y: 77.580643
+  technologies:
+
+  socials:
+    twitter:
+    linkedin: https://www.linkedin.com/in/vigneshvenkataraman25/
+    github: https://github.com/VIGNESHinZONE
+
+- name: Nikhil
+  url: /fellow/Nikhil
+  img: Nikhil.jpeg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
+  location: Karnataka, India
+  coordinates:
+    x: 15.317277
+    y: 75.713890
+  technologies:
+    - typescript
+    - c++
+  socials:
+    twitter:
+    linkedin: https://www.linkedin.com/in/nikhil-bn/
+    github: https://github.com/nbnaradhya
+
+- name: Stephanie
+  url: /fellow/Stephanie
   img: amanda.jpg
-  location: New York City, USA
-
-- name: Aaron
-  img: aaron.jpg
+  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: London, UK
-
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
+  coordinates:
+    x: 51.509865
+    y: -0.118092
+  technologies:
+  socials:
+    twitter: https://twitter.com/swiftalphaone
+    linkedin: https://www.linkedin.com/in/theycallmeswift/
+    github: https://github.com/theycallmeswift

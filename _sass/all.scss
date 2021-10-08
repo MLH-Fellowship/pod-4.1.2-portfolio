@@ -3,11 +3,24 @@
 @import 'navbar';
 @import 'profile';
 @import 'page';
+@import 'footer';
+@import 'map';
+@import "stats";
+@import 'project';
 
+/*Following line was added to avoid white space after footer*/
+html{
+    height: 100%;
+}
 .card-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    // grid-template-columns: repeat(4, 1fr);
+    flex-direction: row;
     font-family: "Open Sans", sans-serif;
+    margin: 80px;
+    a{
+        text-decoration: none;
+    }
 }
 :root {
     --primary-color: #302AE6;
@@ -26,42 +39,50 @@
 }
 
 @media only screen and (max-width: 1500px) {
-  .card-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media only screen and (max-width: 1000px) {
-  .card-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media only screen and (max-width: 768px) {
-  .card-container {
-    grid-template-columns: 1fr;
-  }
+    .card-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 
+body {
+    margin-bottom: 50px;
+}
 h2 {
     color: var(--secondary-color);
     margin-bottom: 20px;
     margin-top: 20px;
-    font-weight: 700;
+    font-size:5vh;
+    align-content: center;
     text-align: center;
+    font-weight: bold;
+    color: blue;
+    padding: 10px
 }
 
 .card {
     color: var(--secondary-color);
     display: flex;
-    flex-direction: row;
+    flex-direction: column; 
+    justify-content: center;
     align-items: center;
     margin: 20px 30px;
-    background-color: white;
-    border-radius: .375rem;
-    padding: 1.5em;
+    border-radius: 30px;
+    padding: 2em 2em;
     font-size: 1.2em;
+    box-shadow: 0px 4px 30px rgba(63, 65, 67, 0.6);
 }
 
 a {
@@ -69,38 +90,95 @@ a {
 }
 
 .info {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+ .btns{
+     margin-top: 20px;
+     button {
+         border: none;
+         padding: 10px 30px;
+         border-radius: 50px;
+         color: white;
+         transition:0.3s;
+     }
+     .github{
+        background: linear-gradient(45deg, #d5135a, #f05924);
+        box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.35);
+        &:hover{
+            box-shadow: 0px 7px 30px rgba(223, 45, 70, 0.75);
+         }
+     }
+     .demo{
+        background: linear-gradient(45deg, #1da1f2, #0e71c8);
+        box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.4);
+        &:hover{
+            box-shadow: 0px 7px 30px rgba(19, 127, 212, 0.75);
+        }
+     }
+
+ }
+
+    img{
+        width: 25%; 
+        border-radius: 12px;
+    }
     p {
         color: var(--secondary-color);
         margin-top: 5px;
         margin: 0px;
         text-align: left;
+        font-family: "Quicksand", sans-serif;
     }
 
     .title {
         color: var(--secondary-color);
-        font-size: 500;
         font-weight: bold;
+        font-size: 20px;
     }
 
     .location, .description {
         color: var(--secondary-color);
         font-size: medium;
-        font-weight: 400;
+        font-weight: 600;
+        font-size: 20px;
+
     }
 
     .dates {
         color: var(--secondary-color);
         font-size: small;
+        color: #404040;
+        font-weight: 200;
+    }
+    .brief{
+        font-weight: 200;
+
     }
 }
 
 .icon {
-    width: 70px;
-    height: 70px;
-    margin-right: 20px;
-    padding: 10px;
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+  padding: 10px;
 
     img {
         width: 100%;
     }
+}
+
+@media (max-width: 570px) {
+.card{
+    padding: 2em 10px;
+    margin: 20px 0;
+
+}
+.card-container{
+    flex-direction: column;
+    margin: 80px 0;
+
+}
 }

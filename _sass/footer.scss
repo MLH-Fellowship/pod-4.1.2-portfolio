@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+footer{
+  display: grid;
+  grid-template-areas: 'auto auto auto';
+  background-color: rgb(53, 53, 53);
+  font-family: "Open Sans", serif;
+  font-weight: bold;
+  font-size: 2vh;
+  padding: 7vh 1vh;
+}
+.info-stats{
+  padding: 0 20vw;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(85, 98, 214);
+  margin-top: 30px;
+  font-family: "Quicksand", sans-serif;
+  .stats{
+   text-align: center;
+  }
+  p{
+    color: rgb(177, 184, 241);
+    font-weight: 600;
+    font-size: 20px;
+  }
+  h4{
+color: white;
+font-weight: 800;
+font-size: 2rem;
+  }
+}
+
+footer > div {
+  margin: 15px;
+}
+
+.prep-logo img{
+    width: 250px;
+}
+.pod-name{
+  margin: 0.25%;
+  font-family: 'Lobster', cursive;
+  font-size: 5vh;
+  font-weight: bolder;
+}
+.bird{
+  color: rosybrown;
+}
+.location{
+  margin-top: 2.5vh;
+}
+
+.pod-quote{
+  margin-left: 25%;
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.links a{
+  color: unset;
+  font-size: unset;
+  transition: 0.3s;
+}
+
+.links a:hover{
+  color:rgb(206, 203, 203);
+  text-decoration: none;
+}
+.social-handles a{
+  margin-right: 10px;
+}
+
+@media (max-width: 1050px) {
+  footer {
+    display: grid;
+    grid-template-areas: 'auto';
+    width: 80%;
+    margin: auto;
+
+  }
+
+  #sparrows {
+    width: 70%;
+    margin: auto;
+    font-size: 3vh;
+  }
+  #location-links {
+    display: grid;
+    grid-template-areas: 'auto';
+    font-size: 1.5vh;
+    width: 70%;
+    margin: auto;
+  }
+  .pod-quote {
+    margin-left: unset;
+    font-size: 1.75rem;
+  }
+  .teaminfo, .memberinfo {
+    display: inline-block;
+  }
+}
+
