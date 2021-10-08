@@ -1,5 +1,6 @@
 - name: Aditya
-  img: aditya.svg
+  url: /fellow/Aditya
+  img: aditya.png
   description: MLH Fellow
   location: New Delhi, India
   coordinates:
@@ -13,7 +14,8 @@
     github: https://github.com/0x0elliot
 
 - name: Rehan
-  img: Rehan.svg
+  url: /fellow/Rehan
+  img: Rehan.png
   description: MLH Fellow
   location: Guwahati, India
   coordinates:
@@ -28,9 +30,11 @@
     github: https://github.com/Abusayid693
 
 - name: Anubhuti
-  img: anubhuti.svg
-  description: MLH Fellow
   location: Jharkhand, India
+  url: /fellow/Anubhuti
+  img: anubhuti.jpg
+  description: MLH Fellow
+  location: London, UK
   coordinates:
     x: 22.805618
     y: 86.203110
@@ -44,7 +48,8 @@
     github: https://github.com/Anu-123-gif
 
 - name: Kevin
-  img: kevin.svg
+  url: /fellow/Kevin
+  img: kevin.jpeg
   description: MLH Fellow
   location: New York City, USA
   coordinates:
@@ -57,7 +62,8 @@
     github: https://github.com/kevinchengny
 
 - name: Mazen
-  img: mazen.svg
+  url: /fellow/Mazen
+  img: mazen.jpeg
   description: MLH Fellow
   location: Cairo, Egypt
   coordinates:
@@ -71,7 +77,8 @@
     github: https://github.com/Mazensayed91
 
 - name: Nikhil
-  img: Nikhil.svg
+  url: /fellow/Nikhil
+  img: Nikhil.jpeg
   description: MLH Fellow
   location: Karnataka, India
   coordinates:
@@ -86,7 +93,8 @@
     github: https://github.com/nbnaradhya
 
 - name: Prabin
-  img: prabin.svg
+  url: /fellow/Prabin
+  img: prabin.jpeg
   description: MLH Fellow
   location: Kathmandu, Nepal
   coordinates:
@@ -102,7 +110,8 @@
     github: https://github.com/prabin-acharya
 
 - name: Ritesh
-  img: ritesh.svg
+  url: /fellow/Ritesh
+  img: ritesh.jpeg
   description: MLH Fellow
   location: Maharashtra, India
   coordinates:
@@ -118,7 +127,8 @@
     github: https://github.com/riteshsp2000
 
 - name: Shubham
-  img: shubham.svg
+  url: /fellow/Shubham
+  img: shubham.jpeg
   description: MLH Fellow
   location: New Delhi, India
   coordinates:
@@ -133,7 +143,8 @@
     github: https://github.com/shubham0324
 
 - name: Vignesh
-  img: Vignesh.svg
+  url: /fellow/Vignesh
+  img: vignesh.jpeg
   description: MLH Fellow
   location: Bangalore, India
   coordinates:
@@ -147,7 +158,8 @@
     github: https://github.com/VIGNESHinZONE
 
 - name: Nikhil
-  img: Nikhil.svg
+  url: /fellow/Nikhil
+  img: Nikhil.jpeg
   description: MLH Fellow
   location: Karnataka, India
   coordinates:
@@ -162,6 +174,7 @@
     github: https://github.com/nbnaradhya
 
 - name: Stephanie
+  url: /fellow/Stephanie
   img: amanda.jpg
   description: MLH Fellow
   location: London, UK
@@ -175,6 +188,7 @@
     github: https://github.com/steph-kimm
 
 - name: Rohit
+  url: /fellow/Rohit
   img: rohit.jpg
   description: MLH Fellow
   location: Urbana, Illinois

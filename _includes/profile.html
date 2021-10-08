@@ -14,6 +14,10 @@ crossorigin="anonymous"
         <div class="fellows" id="fellows">
             <h2>Fellows</h2>
         {% for item in site.data.fellows %}
+
+        <a href="/fellow/{{ item.name }}.html">
+
+
         <div class="fellow">
             <img src="./assets/img/{{ item.img }}">
             <div class="about">
@@ -29,13 +33,14 @@ crossorigin="anonymous"
                 <a class="instagram" href=""><i class="fab fa-instagram"></i></a>
                 <a class="linkedin" href="{{item.socials.linkedin}}"><i class="fab fa-linkedin-in"></i></a>
                 <a class="facebook" href=""><i class="fab fa-facebook-f"></i></a>
+               </div>
+           </div>
 
-            </div>
+
+
         </div>
+        </a>
 
-
-
-        </div>
         {% endfor %}
     </div>
 </div>

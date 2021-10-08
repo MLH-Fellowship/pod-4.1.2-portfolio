@@ -12,4 +12,7 @@ sass:
 
 icon: /assets/img/icon.jpg
 
+plugins:
+  - jekyll-dotenv
+
 accessToken: pk.eyJ1IjoibmJuYXJhZGh5YSIsImEiOiJja2xpdjc0eXQwMHY5MnhwNTVmbjlwY2phIn0.pS57OxYhcCZegQr4psnEdg
