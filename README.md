@@ -93,6 +93,22 @@ To run:
  bundle exec jekyll serve
 ```
 
+### Setting up environment variables
+- The project uses GitHub Personal Access Token to fetch repository details from the GitHub API
+- You can generate an access token by following the steps in the given link:
+  https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+- Once the token is generated, add a new file with the name `.env` in the root of the project
+- Add the following line to the above created file
+
+```
+GITHUB_ACCESS_TOKEN=your-generated-token
+```
+- Or you can set the environment variables via your terminal using the command
+
+```
+export GITHUB_ACCESS_TOKEN=your-generated-token
+```
+
 ### Arch Linux ([Refer to arch wiki](https://wiki.archlinux.org/title/ruby#Setup))
 
 Arch usually comes pre-installed with ruby.
