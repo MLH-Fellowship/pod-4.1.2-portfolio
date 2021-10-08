@@ -1,4 +1,5 @@
 - name: Aditya
+  url: /fellow/Aditya
   img: aditya.png
   description: Hello! I am Will. I like to build tech communities & currently I'm associated with Major League Hacking.
   location: New Delhi, India
@@ -13,6 +14,7 @@
     github: https://github.com/0x0elliot
 
 - name: Rehan
+  url: /fellow/Rehan
   img: Rehan.png
   description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: Guwahati, India
@@ -29,6 +31,7 @@
     github: https://github.com/Abusayid693
 
 - name: Anubhuti
+  url: /fellow/Anubhuti
   img: anubhuti.jpg
   description: Hello! I am Will. I like to build tech communities & currently I'm associated with Major League Hacking
   location: London, UK
@@ -45,6 +48,7 @@
     github: https://github.com/Anu-123-gif
 
 - name: Kevin
+  url: /fellow/Kevin
   img: kevin.jpeg
   description: Hello! I am Amanda. I like to build tech communities & currently I'm associated with Major League Hacking
   location: New York City, USA
@@ -58,6 +62,7 @@
     github: https://github.com/kevinchengny
 
 - name: Mazen
+  url: /fellow/Mazen
   img: mazen.jpeg
   description: Hello! I am Aaron. I like to build tech communities & currently I'm associated with Major League Hacking
   location: Cairo, Egypt
@@ -72,6 +77,7 @@
     github: https://github.com/Mazensayed91
 
 - name: Nikhil
+  url: /fellow/Nikhil
   img: Nikhil.jpeg
   description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: Karnataka, India
@@ -87,6 +93,7 @@
     github: https://github.com/nbnaradhya
 
 - name: Prabin
+  url: /fellow/Prabin
   img: prabin.jpeg
   description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: Kathmandu, Nepal
@@ -103,6 +110,7 @@
     github: https://github.com/prabin-acharya
 
 - name: Ritesh
+  url: /fellow/Ritesh
   img: ritesh.jpeg
   description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: Maharashtra, India
@@ -119,6 +127,7 @@
     github: https://github.com/riteshsp2000
 
 - name: Shubham
+  url: /fellow/Shubham
   img: shubham.jpeg
   description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: New Delhi, India
@@ -134,6 +143,7 @@
     github: https://github.com/shubham0324
 
 - name: Vignesh
+  url: /fellow/Vignesh
   img: Vignesh.jpeg
   description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: Bangalore, India
@@ -148,6 +158,7 @@
     github: https://github.com/VIGNESHinZONE
 
 - name: Nikhil
+  url: /fellow/Nikhil
   img: Nikhil.jpeg
   description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: Karnataka, India
@@ -163,6 +174,7 @@
     github: https://github.com/nbnaradhya
 
 - name: Stephanie
+  url: /fellow/Stephanie
   img: amanda.jpg
   description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: London, UK
