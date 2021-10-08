@@ -65,13 +65,32 @@ layout: page
 
 ## Development
 
-### Build locally
-
-If you want to test it locally or add some new features, run the below commands. Make sure to have Ruby and Bundler installed.
+### Build on Docker
 
 ```
-bundle install --path vendor/bundle
-bundle exec jekyll serve
+sudo docker-compose up
+```
+
+### MacOs
+
+Ruby is often already installed in Mac.
+You can check the version and if it's installed with:
+```
+ ruby-v
+```
+You can check bundler with:
+```
+bundler-v
+```
+If you don't have it, you can install with:
+```
+ brew install ruby
+ gem install bundler
+```
+To run:
+```
+ bundle config set --local path 'vendor/bundle'
+ bundle exec jekyll serve
 ```
 
 ### Setting up environment variables
@@ -90,8 +109,27 @@ GITHUB_ACCESS_TOKEN=your-generated-token
 export GITHUB_ACCESS_TOKEN=your-generated-token
 ```
 
-### Build on Docker
+### Arch Linux ([Refer to arch wiki](https://wiki.archlinux.org/title/ruby#Setup))
+
+Arch usually comes pre-installed with ruby.
+
+Check if installed by running `ruby -v`
+
+If not, install it by running `sudo pacman -S ruby`
+
+By default in Arch Linux, when running `gem`, gems are installed per-user (into `~/.local/share/gem/ruby/`), instead of system-wide (into `/usr/lib/ruby/gems/`).
+
+So to access your gems, add the following two lines to one of these files: (`.profile`, `zshenv`, `bash_profile`)
 
 ```
-sudo docker-compose up
+export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+export PATH="$PATH:$GEM_HOME/bin"
 ```
+
+Then restart or run `source ~/.profile`
+
+Install bundler by running `gem install bundler`
+
+Change directory to project home and setup environment by running `bundle install --path vendor/bundle`
+
+Finally start your local dev server `bundle exec jekyll serve --livereload`

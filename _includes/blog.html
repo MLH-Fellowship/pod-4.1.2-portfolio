@@ -1,0 +1,18 @@
+<h2>Latest Posts</h2>
+
+<div class="card-container">
+  {% for post in site.posts %}
+  {% if post.url %}
+  <a href="{{ post.url }}">
+  {% else %}
+  <a>
+  {% endif %}
+    <div class="card">
+      <div class="info">
+        <p class="title">{{ post.title }}</p>
+        <p class="dates">{{ post.date | date_to_string }} - {{ post.author }}</p>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div>
