@@ -1,26 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
-.profile {
-  background-color: black;
+#profile {
   text-align: center;
   padding-bottom: 20px;
   margin-bottom: 50px;
   padding-top: 60px;
-  // background: linear-gradient(90deg, #757f9a 0%, #d7dde8 100%);
-  background-color: white;
-//   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+
   h1 {
     font-size: 50px;
     font-weight: 700;
-    color: white;
-    color: #324e63;
-
-
   }
   h2 {
     font-size: 30px;
-    color: rgb(255, 255, 255);
-    color: #324e63;
-
   }
   .pod-lead {
     margin: 20px 0;
@@ -135,14 +125,13 @@
   .profile-picture {
     padding: 30px 0;
   }
-  .fellows {
-    background-color: rgb(255, 255, 255);
+  #fellows {
     padding: 30px 1rem;
     margin: 0 100px;
     width: fit-content;
     border-radius: 12px;
     box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
-    h2 {
+    .heading {
       color: #324e63;
     }
   }
@@ -165,5 +154,21 @@
     .fellow {
       margin: 20px auto;
     }
+    #fellows{
+      margin: 0 auto;
+    }
   }
+}
+
+.profile-light {
+  background-color: white;
+}
+.profile-dark {
+  background-color: rgb(0, 0, 0);
+}
+.fellow-dark {
+  background: linear-gradient(90deg, #757f9a 0%, #d7dde8 100%);
+}
+.fellow-light {
+  background-color: rgb(255, 255, 255);
 }

@@ -5,12 +5,36 @@
 footer{
   display: grid;
   grid-template-areas: 'auto auto auto';
-  background-color: black;
+  background-color: rgb(53, 53, 53);
   font-family: "Open Sans", serif;
   font-weight: bold;
   font-size: 2vh;
   padding: 7vh 1vh;
+}
+.info-stats{
+  padding: 0 20vw;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(85, 98, 214);
   margin-top: 30px;
+  font-family: "Quicksand", sans-serif;
+  .stats{
+   text-align: center;
+  }
+  p{
+    color: rgb(177, 184, 241);
+    font-weight: 600;
+    font-size: 20px;
+  }
+  h4{
+color: white;
+font-weight: 800;
+font-size: 2rem;
+  }
 }
 
 footer > div {
