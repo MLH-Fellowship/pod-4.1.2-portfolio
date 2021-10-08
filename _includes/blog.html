@@ -1,18 +1,20 @@
 <h2>Latest Posts</h2>
 
-<div class="card-container">
+<div class="blog-card-body">
   {% for post in site.posts %}
   {% if post.url %}
+  <div class="blog-card">
   <a href="{{ post.url }}">
   {% else %}
   <a>
   {% endif %}
-    <div class="card">
-      <div class="info">
-        <p class="title">{{ post.title }}</p>
-        <p class="dates">{{ post.date | date_to_string }} - {{ post.author }}</p>
+      <div class="blog-text">
+        <h4 class="">{{ post.title }}</h4>
+        <p class="">{{ post.date | date_to_string }} - {{ post.author }}</p>
+        <button>More</button>
       </div>
-    </div>
   </a>
+</div>
   {% endfor %}
 </div>
+

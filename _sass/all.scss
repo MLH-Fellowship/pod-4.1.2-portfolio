@@ -5,6 +5,11 @@
 @import 'page';
 @import 'footer';
 @import 'map';
+$primary: #f5f4f6; //background
+$secondary: #28262c; //black
+$tertiary: #ac90d0; //light-purple
+$accent: #7f54b3; //purple
+$white: #fff;
 
 /*Following line was added to avoid white space after footer*/
 html{
@@ -12,7 +17,6 @@ html{
 }
 .card-container {
     display: flex;
-    // grid-template-columns: repeat(4, 1fr);
     flex-direction: row;
     font-family: "Open Sans", sans-serif;
     margin: 80px;
@@ -158,3 +162,68 @@ a {
 }
 }
 
+// Blog here
+
+.blog-card-body{
+    display: flex;
+    flex-direction: row;
+    .blog-card{
+        margin: 40px auto;
+        border-radius: 10px;
+        height: 300px;
+        width: 250px;
+        position: relative;
+        font-size: 1.2em;
+        box-shadow: 0px 4px 30px rgba(63, 65, 67, 0.6);
+        background: linear-gradient(to top left, $tertiary, $accent);
+        background-size: 300px 250px;
+        background-image: url('https://raw.githubusercontent.com/Abusayid693/CMS-Management-Tool/main/52dc8238879c1ba7f84f5c8748320e00.jpg');
+    }
+    .blog-text{
+      height: 100px;
+      width: 100%;
+      position: absolute;
+      background-color: white;
+      bottom: 0px;
+      border-radius: 0 0px 10px 10px;
+      transition: 0.3s;
+
+    }
+    button {
+        opacity: 0;
+        border: none;
+        padding: 7px 30px;
+        border-radius: 50px;
+        color: white;
+        transition:0.3s;
+       background: linear-gradient(45deg, #d5135a, #f05924);
+       box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.35);
+       &:hover{
+           box-shadow: 0px 7px 30px rgba(223, 45, 70, 0.75);
+        }
+    }
+    p{
+        font-family: "Quicksand", sans-serif; 
+        font-weight: 100;
+    }
+    h4{
+        font-family: "Quicksand", sans-serif; 
+        font-weight: 600;
+    }
+     .blog-text:hover{
+        height: 150px;
+
+     }
+     .blog-text:hover>button{
+        // display: static;
+        opacity: 1;
+
+     }
+}
+
+@media (max-width: 570px) {
+    .blog-card-body{
+
+        flex-direction: column;  
+}
+}
