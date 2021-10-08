@@ -1,41 +1,6 @@
 ---
-name: Stephanie
+fellow-name: Stephanie
+layout: fellow
+title: Fellow
+
 ---
-<!DOCTYPE html>
-<html lang="en">
-
-{% include header.html %}
-
-<body>
-    {% include navbar.html %}
-
-    {% for fellow in site.data.fellows %}
-        {% if fellow.name == "Stephanie" %}
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col">
-                                        <img src="{{ fellow.img }}">
-                                    </div>
-                                    <div class="col">
-                                        <h2 class="card-title">{{ fellow.name }}</h2>
-                                        <p class="card-text">{{ fellow.description }}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        {% endif %}
-
-    {% endfor %}
-
-    {% include footer.html%}
-
-</body>
-
-</html>

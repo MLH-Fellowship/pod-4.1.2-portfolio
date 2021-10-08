@@ -1,0 +1,29 @@
+---
+layout: page
+---
+
+
+{% for fellow in site.data.fellows %}
+{% if fellow.name == page.fellow-name %}
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <img src="../assets/img/{{ fellow.img }}">
+                            </div>
+                            <div class="col">
+                                <h2 class="card-title">{{ fellow.name }}</h2>
+                                <p class="card-text">{{ fellow.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}
+
+{% endfor %}
