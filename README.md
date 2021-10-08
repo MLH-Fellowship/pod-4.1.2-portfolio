@@ -79,25 +79,3 @@ bundle exec jekyll serve
 ```
 sudo docker-compose up
 ```
-
-## Development [MacOs Environment]
-
-Ruby is often already installed in Mac.
-You can check the version and if it's installed with:
-```
- ruby-v
-```
-You can check bundler with:
-```
-bundler-v
-```
-If you don't have it, you can install with:
-```
- brew install ruby
- gem install bundler
-```
-To run:
-```
- bundle config set --local path 'vendor/bundle'
- bundle exec jekyll serve
-```
