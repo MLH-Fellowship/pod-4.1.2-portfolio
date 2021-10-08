@@ -30,11 +30,10 @@
     github: https://github.com/Abusayid693
 
 - name: Anubhuti
-  location: Jharkhand, India
   url: /fellow/Anubhuti
   img: anu.jpg
   description: MLH Fellow
-  location: London, UK
+  location: Jharkhand, India
   coordinates:
     x: 22.805618
     y: 86.203110
