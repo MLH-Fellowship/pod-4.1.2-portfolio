@@ -1,38 +1,18 @@
 - title: Online Shopping App
-  event: MLH Prep Pod
-  date: Fall 2021
-  github: mlhfellowship
+  event: MLH Prep Pod Project
+  date: Fall 2021  - Batch 4.5
   page-name: project
-  demo-link: mlhfellowship
-  image-link: https://th.bing.com/th/id/OIP.aX5AUM78u-m0mvJElrWEIAAAAA?pid=ImgDet&w=423&h=486&rs=1
-  alt-value: online shopping app
-
+  img: Rehan.svg
 
 - title: Todo List
   event: MLH Prep Pod Project
-  date: Fall 2021
-  github: mlhfellowship
+  date: Fall 2021  - Batch 4.5
   page-name: project
-  demo-link: mlhfellowship
-  image-link: https://th.bing.com/th/id/OIP.aBcFT3_JzgR-9D-MDTc_rAHaKb?pid=ImgDet&rs=1
-  alt-value: todo list
-
+  img: Nikhil.svg
 
 - title: iOS App
   event: MLH Prep Pod Project
-  date: Fall 2021
-  github: mlhfellowship
+  date: Fall 2021  - Batch 4.5
   page-name: project
-  demo-link: mlhfellowship
-  image-link: https://th.bing.com/th/id/OIP.irUBETplr0FGXwIkncKgigAAAA?pid=ImgDet&rs=1
-  alt-value: ios app
+  img: Vignesh.svg
 
-
-- title: Pod Website
-  event: MLH Prep Pod Project
-  date: Fall 2021
-  github: MLH-Fellowship/pod-4.1.2-portfolio/
-  page-name: project
-  demo-link: mlhfellowship
-  image-link: /assets/img/pod.png
-  alt-value: opod website
