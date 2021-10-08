@@ -151,6 +151,8 @@
     x: 12.972442
     y: 77.580643
   technologies:
+    - c++
+    - js
 
   socials:
     twitter:
@@ -182,6 +184,8 @@
     x: 51.509865
     y: -0.118092
   technologies:
+    - c++
+    - js
   socials:
     twitter: https://twitter.com/swiftalphaone
     linkedin: https://www.linkedin.com/in/theycallmeswift/
