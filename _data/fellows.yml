@@ -1,11 +1,6 @@
 - name: Aditya
-<<<<<<< HEAD
   img: aditya.svg
   description: MLH Fellow
-=======
-  img: aditya.png
-  description: Hello! I am Will. I like to build tech communities & currently I'm associated with Major League Hacking.
->>>>>>> upstream/main
   location: New Delhi, India
   coordinates:
     x: 28.644800
@@ -18,13 +13,8 @@
     github: https://github.com/0x0elliot
 
 - name: Rehan
-<<<<<<< HEAD
   img: Rehan.svg
   description: MLH Fellow
-=======
-  img: Rehan.png
-  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
->>>>>>> upstream/main
   location: Guwahati, India
   coordinates:
     x: 26.148043
@@ -38,15 +28,9 @@
     github: https://github.com/Abusayid693
 
 - name: Anubhuti
-<<<<<<< HEAD
   img: anubhuti.svg
   description: MLH Fellow
   location: Jharkhand, India
-=======
-  img: anubhuti.jpg
-  description: Hello! I am Will. I like to build tech communities & currently I'm associated with Major League Hacking
-  location: London, UK
->>>>>>> upstream/main
   coordinates:
     x: 22.805618
     y: 86.203110
@@ -60,13 +44,8 @@
     github: https://github.com/Anu-123-gif
 
 - name: Kevin
-<<<<<<< HEAD
   img: kevin.svg
   description: MLH Fellow
-=======
-  img: kevin.jpeg
-  description: Hello! I am Amanda. I like to build tech communities & currently I'm associated with Major League Hacking
->>>>>>> upstream/main
   location: New York City, USA
   coordinates:
     x: 40.730610
@@ -78,13 +57,8 @@
     github: https://github.com/kevinchengny
 
 - name: Mazen
-<<<<<<< HEAD
   img: mazen.svg
   description: MLH Fellow
-=======
-  img: mazen.jpeg
-  description: Hello! I am Aaron. I like to build tech communities & currently I'm associated with Major League Hacking
->>>>>>> upstream/main
   location: Cairo, Egypt
   coordinates:
     x: 30.033333
@@ -97,13 +71,8 @@
     github: https://github.com/Mazensayed91
 
 - name: Nikhil
-<<<<<<< HEAD
   img: Nikhil.svg
   description: MLH Fellow
-=======
-  img: Nikhil.jpeg
-  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
->>>>>>> upstream/main
   location: Karnataka, India
   coordinates:
     x: 15.317277
@@ -117,13 +86,8 @@
     github: https://github.com/nbnaradhya
 
 - name: Prabin
-<<<<<<< HEAD
   img: prabin.svg
   description: MLH Fellow
-=======
-  img: prabin.jpeg
-  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
->>>>>>> upstream/main
   location: Kathmandu, Nepal
   coordinates:
     x: 27.700001
@@ -138,13 +102,8 @@
     github: https://github.com/prabin-acharya
 
 - name: Ritesh
-<<<<<<< HEAD
   img: ritesh.svg
   description: MLH Fellow
-=======
-  img: ritesh.jpeg
-  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
->>>>>>> upstream/main
   location: Maharashtra, India
   coordinates:
     x: 19.663280
@@ -159,13 +118,8 @@
     github: https://github.com/riteshsp2000
 
 - name: Shubham
-<<<<<<< HEAD
   img: shubham.svg
   description: MLH Fellow
-=======
-  img: shubham.jpeg
-  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
->>>>>>> upstream/main
   location: New Delhi, India
   coordinates:
     x: 28.644800
@@ -179,13 +133,8 @@
     github: https://github.com/shubham0324
 
 - name: Vignesh
-<<<<<<< HEAD
   img: Vignesh.svg
   description: MLH Fellow
-=======
-  img: Vignesh.jpeg
-  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
->>>>>>> upstream/main
   location: Bangalore, India
   coordinates:
     x: 12.972442
@@ -198,13 +147,8 @@
     github: https://github.com/VIGNESHinZONE
 
 - name: Nikhil
-<<<<<<< HEAD
   img: Nikhil.svg
   description: MLH Fellow
-=======
-  img: Nikhil.jpeg
-  description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
->>>>>>> upstream/main
   location: Karnataka, India
   coordinates:
     x: 15.317277
