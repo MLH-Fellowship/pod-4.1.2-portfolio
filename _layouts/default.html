@@ -1,16 +1,15 @@
 ---
 ---
+
 <!DOCTYPE html>
 <html lang="en">
-{% include header.html %}
+  {% include header.html %}
+  <body>
+      {% include navbar.html %}
 
-<body>
-    {% include navbar.html %}
-    
-    {{ content }}
+      {{ content }}
 
-    {% include footer.html %}
-
-</body>
-
+      {% include footer.html %}
+    <script src="./assets/js/loader.js" type="text/javascript"></script>
+  </body>
 </html>
