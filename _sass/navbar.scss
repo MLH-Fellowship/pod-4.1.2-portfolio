@@ -5,11 +5,12 @@
     font-weight: 700 !important;
     background-color: #133667;
     background-color: rgba(0, 0, 0, .2);
-    position: absolute;
-    width: 90vw;
-    left: 5vw;
-    top: 10px;
-    border-radius: 50px;
+    width: 100vw;
+    box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+    background-color: black;
+    position: fixed;
+    z-index: 9999;
+
 }
 
 .nav-content .logo-touch-target {

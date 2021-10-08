@@ -5,7 +5,7 @@
 footer{
   display: grid;
   grid-template-areas: 'auto auto auto';
-  background: linear-gradient(90deg, #757f9a 0%, #d7dde8 100%);
+  background-color: black;
   font-family: "Open Sans", serif;
   font-weight: bold;
   font-size: 2vh;
@@ -44,10 +44,11 @@ footer > div {
 .links a{
   color: unset;
   font-size: unset;
+  transition: 0.3s;
 }
 
 .links a:hover{
-  color:black;
+  color:rgb(206, 203, 203);
   text-decoration: none;
 }
 .social-handles a{
