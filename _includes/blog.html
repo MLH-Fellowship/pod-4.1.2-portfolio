@@ -1,9 +1,9 @@
-<h2>Latest Posts</h2>
+<h2 style="float: left;font-size:5vh;font-weight: bold;color: blue;padding: 10px;margin: auto;width: 100%">Latest Posts</h2>
 
-<div class="card-container">
+<div class="card-container" style="float: left">
   {% for post in site.posts %}
   {% if post.url %}
-  <a href="{{ post.url }}">
+  <a href="{{ post.url }}"> </a>
   {% else %}
   <a>
   {% endif %}
