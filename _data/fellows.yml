@@ -1,6 +1,6 @@
 - name: Aditya
   url: /fellow/Aditya
-  img: aditya.svg
+  img: aditya.png
   description: Hello! I am Will. I like to build tech communities & currently I'm associated with Major League Hacking.
   location: New Delhi, India
   coordinates:
@@ -15,7 +15,7 @@
 
 - name: Rehan
   url: /fellow/Rehan
-  img: Rehan.svg
+  img: Rehan.png
   description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: Guwahati, India
   coordinates:
@@ -32,7 +32,7 @@
 
 - name: Anubhuti
   url: /fellow/Anubhuti
-  img: anubhuti.svg
+  img: anubhuti.jpg
   description: Hello! I am Will. I like to build tech communities & currently I'm associated with Major League Hacking
   location: London, UK
   coordinates:
@@ -49,7 +49,7 @@
 
 - name: Kevin
   url: /fellow/Kevin
-  img: kevin.svg
+  img: kevin.jpeg
   description: Hello! I am Amanda. I like to build tech communities & currently I'm associated with Major League Hacking
   location: New York City, USA
   coordinates:
@@ -63,7 +63,7 @@
 
 - name: Mazen
   url: /fellow/Mazen
-  img: mazen.svg
+  img: mazen.jpeg
   description: Hello! I am Aaron. I like to build tech communities & currently I'm associated with Major League Hacking
   location: Cairo, Egypt
   coordinates:
@@ -78,7 +78,7 @@
 
 - name: Nikhil
   url: /fellow/Nikhil
-  img: Nikhil.svg
+  img: Nikhil.jpeg
   description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: Karnataka, India
   coordinates:
@@ -111,7 +111,7 @@
 
 - name: Ritesh
   url: /fellow/Ritesh
-  img: ritesh.svg
+  img: ritesh.jpeg
   description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: Maharashtra, India
   coordinates:
@@ -128,7 +128,7 @@
 
 - name: Shubham
   url: /fellow/Shubham
-  img: shubham.svg
+  img: shubham.jpeg
   description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: New Delhi, India
   coordinates:
@@ -144,7 +144,7 @@
 
 - name: Vignesh
   url: /fellow/Vignesh
-  img: Vignesh.svg
+  img: Vignesh.jpeg
   description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: Bangalore, India
   coordinates:
@@ -159,7 +159,7 @@
 
 - name: Nikhil
   url: /fellow/Nikhil
-  img: Nikhil.svg
+  img: Nikhil.jpeg
   description: Hello! I am Swift. I like to build tech communities & currently I'm associated with Major League Hacking
   location: Karnataka, India
   coordinates:
