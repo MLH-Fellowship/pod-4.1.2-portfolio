@@ -43,17 +43,7 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #161625 !important;
-    }
-}
 
-body {
-    margin-bottom: 50px;
-    background-color: var(--bg-color);
-    color: var(--font-color);
-}
 h2 {
     color: var(--secondary-color);
     margin-bottom: 20px;

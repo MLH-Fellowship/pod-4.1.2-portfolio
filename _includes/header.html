@@ -19,23 +19,17 @@
         crossorigin="anonymous"></script>
     <script src="https://jsxss.com/assets/xss.js"
         crossorigin="anonymous"></script>
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script>
 
         document.addEventListener("DOMContentLoaded", () => {
-            const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-
-            function switchTheme(e) {
-                if (e.target.checked) {
-                    document.documentElement.setAttribute('data-theme', 'dark');
-                }
-                else {
-                    document.documentElement.setAttribute('data-theme', 'light');
-                }
-            }
-            toggleSwitch.addEventListener('change', switchTheme, false);
+                $('.tdnn').click(function () {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                $("body").toggleClass('light');
+                $(".moon").toggleClass('sun');
+                $(".tdnn").toggleClass('day');
+            });
         })
-
     </script>
 
     <!-- Bootstrap CSS -->
