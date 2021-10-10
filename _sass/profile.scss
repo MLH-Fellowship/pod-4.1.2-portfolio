@@ -1,26 +1,174 @@
-.profile {
-    background-color: #133667 !important;
-    text-align: center;
-    height: 320px;
-    margin-bottom: 50px;
-    h1 {
-        font-size: 50px;
-        font-weight: 700;
-        color: white;
-    }
-    
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+#profile {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  padding-top: 60px;
+
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .pod-lead {
+    margin: 20px 0;
     img {
-        border-radius: 50%;
-        max-width: 100%;
-        max-height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: inline;        
-        padding: 20px;
+      max-width: 200px;
+      max-height: 200px;
     }
-    
-    .profile-picture {
-        margin-bottom: 30px;
-        height: 200px;
+  }
+  img {
+    border-radius: 50%;
+    max-width: 170px;
+    max-height: 170px;
+    bottom: 0px;
+    box-shadow: 0px 5px 50px 0px rgb(108, 68, 252),
+      0px 0px 0px 7px rgba(107, 74, 255, 0.5);
+    transition: 0.4s;
+  }
+  .fellow {
+    display: inline-block;
+    margin: 40px 40px;
+    background-color: white;
+    box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+    border-radius: 12px;
+    width: 305px;
+    height: 340px;
+    position: relative;
+    bottom: 0px;
+    transition: bottom 0.4s;
+    .about {
+      position: absolute;
+      bottom: 10px;
+      text-align: center;
     }
+    img {
+      position: absolute;
+      top: -30px;
+      left: 65px;
+    }
+    h3 {
+      color: #6944ff;
+    }
+    p {
+      color: #324e63;
+      font-size: 1.1rem;
+      font-weight: 800;
+      font-family: "Quicksand", sans-serif;
+      margin-left: 4px;
+    }
+    .socials {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 20px;
+      width: 300px;
+      margin: 0 auto;
+      align-items: center;
+    }
+
+    a {
+      color: white;
+      display: flex;
+      justify-content: center;
+      width: 45px;
+      height: 45px;
+      text-align: center;
+      border-radius: 50%;
+      transition: 0.3s;
+      align-items: center;
+    }
+    a:hover {
+      transform: scale(1.1);
+    }
+    .github {
+      background: linear-gradient(45deg, #333333, #626b73);
+      box-shadow: 0px 4px 30px rgba(63, 65, 67, 0.6);
+    }
+
+    .facebook {
+      background: linear-gradient(45deg, #3b5998, #0078d7);
+      box-shadow: 0px 4px 30px rgba(43, 98, 169, 0.5);
+    }
+
+    .instagram {
+      background: linear-gradient(
+        45deg,
+        #405de6,
+        #5851db,
+        #833ab4,
+        #c13584,
+        #e1306c,
+        #fd1d1d
+      );
+      box-shadow: 0px 4px 30px rgba(120, 64, 190, 0.6);
+    }
+    .linkedin {
+      background: linear-gradient(45deg, #1da1f2, #0e71c8);
+      box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.7);
+    }
+    .other-info {
+      display: flex;
+      justify-content: center;
+    }
+    .name {
+      transition: 0.5s;
+    }
+  }
+
+  img:hover {
+    opacity: 0.9;
+    bottom: 5px;
+  }
+  .profile-picture {
+    padding: 30px 0;
+  }
+  #fellows {
+    padding: 30px 1rem;
+    margin: 0 100px;
+    width: fit-content;
+    border-radius: 12px;
+    box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+    .heading {
+      color: #324e63;
+    }
+  }
+  .fellow:hover {
+    bottom: 10px;
+    opacity: 0.91;
+  }
+
+  @media (max-width: 570px) {
+    img {
+      display: inline-block;
+      max-height: 180px;
+      max-width: 180px;
+      margin: 20px 15px;
+    }
+    .fellows {
+      width: 83vw;
+      margin: 0 auto;
+    }
+    .fellow {
+      margin: 20px auto;
+    }
+    #fellows{
+      margin: 0 auto;
+    }
+  }
+}
+
+.profile-light {
+  background-color: white;
+}
+.profile-dark {
+  background-color: rgb(0, 0, 0);
+}
+.fellow-dark {
+  background: linear-gradient(90deg, #757f9a 0%, #d7dde8 100%);
+}
+.fellow-light {
+  background-color: rgb(255, 255, 255);
 }
