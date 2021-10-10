@@ -164,8 +164,8 @@
   description: Hey! I am an MLH Fellow
   location: New York City, USA
   coordinates:
-    x: 51.509865
-    y: -0.118092
+    x: 40.730610
+    y: -73.935242
   technologies:
     - c++
     - js
