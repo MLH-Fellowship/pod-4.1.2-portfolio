@@ -1,0 +1,20 @@
+- name: Microsoft internships 
+  website: https://careers.microsoft.com/students/us/en/usuniversityinternship
+  description: Our university internships are open to students around the globe. Just bring your fresh ideas, perspectives and passion! We offer internships in all job families and solution areas, and it’s open to current students in Bachelor’s, Master’s, MBA, PhD programs.
+  education-level:
+- name: Google STEP
+  website: https://buildyourfuture.withgoogle.com/programs/step/
+  description: STEP (Student Training in Engineering Program), formerly known as Engineering Practicum, is a 12-week internship for first and second-year undergraduate students with a passion for computer science.
+  education-level: College Freshmen and Sophmores
+- name: MLH Fellowship
+  website: https://fellowship.mlh.io/
+  description: The MLH Fellowship is a remote internship alternative for aspiring technologists. Spend 12 weeks building your skills by collaborating on real-world projects.
+  education-level:
+- name: Facebook University for Engineers 
+  website: https://www.facebook.com/careers/FBUEngineering
+  description:  8-week paid training program for groups underrepresented in Computer Science to hone their abilities in mobile development. First and second year undergrads are eligible for the program. 3 weeks of mobile development training + five weeks of hands-on project work in teams. 
+  education-level:
+- name: UberSTAR Internship Program
+  website: https://university-uber.icims.com/jobs/107178/job?iis=marketing&iisn=TheMuse&iisp=paid&rx_job=107178&rx_medium=post&rx_paid=1&rx_r=none&rx_source=themuse&rx_ts=20211007T225210Z&rx_viewer=f8c54115224411ec8fd729102bf0d8eb06540b62e8314833831130fc2fb9f35d&mobile=false&width=1030&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240
+  description: 12-week internship that allows students to work with professionals at Uber to have an effect on the overall customer experience for people who use the app. This program is for current college students interested in working in technology and opportunities with Uber after graduation.
+  education-level:

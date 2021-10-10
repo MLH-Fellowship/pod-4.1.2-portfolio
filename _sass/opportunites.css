@@ -1,0 +1,10 @@
+.card:hover {
+	background:linear-gradient(to bottom, #f6f6f6 20%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.card:active {
+	position:relative;
+	top:1px;
+}
+
+        
