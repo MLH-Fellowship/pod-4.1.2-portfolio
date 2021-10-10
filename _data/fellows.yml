@@ -23,8 +23,7 @@
     y: 91.731377
   technologies:
     - python
-    - scikit learn
-    - tensorflow
+    - javascript
   socials:
     twitter:
     linkedin: https://www.linkedin.com/in/rehan-choudhury-66842a164/
@@ -32,9 +31,9 @@
 
 - name: Anubhuti
   url: /fellow/Anubhuti
-  img: anubhuti.jpg
+  img: anu.jpg
   description: Hey! I am an MLH Fellow
-  location: London, UK
+  location: Jharkhand, India
   coordinates:
     x: 22.805618
     y: 86.203110
@@ -187,6 +186,22 @@
     - c++
     - js
   socials:
-    twitter: https://twitter.com/swiftalphaone
-    linkedin: https://www.linkedin.com/in/theycallmeswift/
-    github: https://github.com/theycallmeswift
+    twitter: https://twitter.com/
+    linkedin: https://www.linkedin.com/in/
+    github: https://github.com/steph-kimm
+
+- name: Rohit
+  url: /fellow/Rohit
+  img: rohit.jpg
+  description: Hey! I am an MLH Fellow
+  location: Urbana, Illinois
+  coordinates:
+    x: 40.110558
+    y: -88.228333
+  technologies:
+    - python
+    - javascript
+  socials:
+    twitter:
+    linkedin: https://www.linkedin.com/in/rkunds/
+    github: https://github.com/rkunds
