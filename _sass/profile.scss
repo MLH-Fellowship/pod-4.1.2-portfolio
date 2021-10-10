@@ -62,13 +62,15 @@
     .socials {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
       padding: 0 20px;
       width: 300px;
-      margin: 0 auto;
+      margin: 5px auto;
       align-items: center;
     }
 
+    .socials > a{
+      margin: 1px;
+    }
     a {
       color: white;
       display: flex;
