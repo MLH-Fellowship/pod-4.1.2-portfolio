@@ -1,7 +1,7 @@
 - name: Aditya
   url: /fellow/Aditya
   img: aditya.png
-  description: MLH Fellow
+  description: Hey! I am an MLH Fellow
   location: New Delhi, India
   coordinates:
     x: 28.644800
@@ -16,7 +16,7 @@
 - name: Rehan
   url: /fellow/Rehan
   img: Rehan.png
-  description: MLH Fellow
+  description: Hey! I am an MLH Fellow
   location: Guwahati, India
   coordinates:
     x: 26.148043
@@ -31,9 +31,9 @@
 
 - name: Anubhuti
   url: /fellow/Anubhuti
-  img: anu.jpg
-  description: MLH Fellow
-  location: Jharkhand, India
+  img: anubhuti.jpg
+  description: Hey! I am an MLH Fellow
+  location: London, UK
   coordinates:
     x: 22.805618
     y: 86.203110
@@ -49,7 +49,7 @@
 - name: Kevin
   url: /fellow/Kevin
   img: kevin.jpeg
-  description: MLH Fellow
+  description: Hey! I am an MLH Fellow
   location: New York City, USA
   coordinates:
     x: 40.730610
@@ -63,7 +63,7 @@
 - name: Mazen
   url: /fellow/Mazen
   img: mazen.jpeg
-  description: MLH Fellow
+  description: Hey! I am an MLH Fellow
   location: Cairo, Egypt
   coordinates:
     x: 30.033333
@@ -78,7 +78,7 @@
 - name: Nikhil
   url: /fellow/Nikhil
   img: Nikhil.jpeg
-  description: MLH Fellow
+  description: Hey! I am an MLH Fellow
   location: Karnataka, India
   coordinates:
     x: 15.317277
@@ -94,7 +94,7 @@
 - name: Prabin
   url: /fellow/Prabin
   img: prabin.jpeg
-  description: MLH Fellow
+  description: Hey! I am an MLH Fellow
   location: Kathmandu, Nepal
   coordinates:
     x: 27.700001
@@ -111,7 +111,7 @@
 - name: Ritesh
   url: /fellow/Ritesh
   img: ritesh.jpeg
-  description: MLH Fellow
+  description: Hey! I am an MLH Fellow
   location: Maharashtra, India
   coordinates:
     x: 19.663280
@@ -128,7 +128,7 @@
 - name: Shubham
   url: /fellow/Shubham
   img: shubham.jpeg
-  description: MLH Fellow
+  description: Hey! I am an MLH Fellow
   location: New Delhi, India
   coordinates:
     x: 28.644800
@@ -143,14 +143,16 @@
 
 - name: Vignesh
   url: /fellow/Vignesh
-  img: vignesh.jpeg
-  description: MLH Fellow
+  img: Vignesh.jpeg
+  description: Hey! I am an MLH Fellow
   location: Bangalore, India
   coordinates:
     x: 12.972442
     y: 77.580643
   technologies:
-    - python
+    - c++
+    - js
+
   socials:
     twitter:
     linkedin: https://www.linkedin.com/in/vigneshvenkataraman25/
@@ -159,7 +161,7 @@
 - name: Nikhil
   url: /fellow/Nikhil
   img: Nikhil.jpeg
-  description: MLH Fellow
+  description: Hey! I am an MLH Fellow
   location: Karnataka, India
   coordinates:
     x: 15.317277
@@ -175,12 +177,14 @@
 - name: Stephanie
   url: /fellow/Stephanie
   img: amanda.jpg
-  description: MLH Fellow
+  description: Hey! I am an MLH Fellow
   location: London, UK
   coordinates:
     x: 51.509865
     y: -0.118092
   technologies:
+    - c++
+    - js
   socials:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/in/
@@ -189,7 +193,7 @@
 - name: Rohit
   url: /fellow/Rohit
   img: rohit.jpg
-  description: MLH Fellow
+  description: Hey! I am an MLH Fellow
   location: Urbana, Illinois
   coordinates:
     x: 40.110558
