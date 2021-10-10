@@ -22,6 +22,21 @@ html{
         text-decoration: none;
     }
 }
+:root {
+    --primary-color: #302AE6;
+    --secondary-color: #536390;
+    --font-color: #424242;
+    --bg-color: #fff;
+    --heading-color: #292922;
+}
+
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+    --heading-color: #818cab;
+}
 
 @media only screen and (max-width: 1500px) {
     .card-container {
@@ -41,10 +56,12 @@ html{
     }
 }
 
+
 body {
     margin-bottom: 50px;
 }
 h2 {
+    color: var(--secondary-color);
     margin-bottom: 20px;
     margin-top: 20px;
     font-size:5vh;
@@ -56,6 +73,7 @@ h2 {
 }
 
 .card {
+    color: var(--secondary-color);
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -68,7 +86,7 @@ h2 {
 }
 
 a {
-  color: black;
+    color: var(--secondary-color);
 }
 
 .info {
@@ -108,19 +126,21 @@ a {
         border-radius: 12px;
     }
     p {
-        margin-top: 9px;
+        color: var(--secondary-color);
+        margin-top: 5px;
         margin: 0px;
         text-align: left;
         font-family: "Quicksand", sans-serif;
     }
 
     .title {
-        font-size: 700;
+        color: var(--secondary-color);
         font-weight: bold;
         font-size: 20px;
     }
 
     .location, .description {
+        color: var(--secondary-color);
         font-size: medium;
         font-weight: 600;
         font-size: 20px;
@@ -128,9 +148,9 @@ a {
     }
 
     .dates {
+        color: var(--secondary-color);
         font-size: small;
         color: #404040;
-        font-size: 18px;
         font-weight: 200;
     }
     .brief{
