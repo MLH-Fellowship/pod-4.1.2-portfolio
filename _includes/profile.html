@@ -4,6 +4,13 @@ crossorigin="anonymous"
 ></script>
 <script src="https://unpkg.com/scrollreveal"></script>
 
+<style>
+    #profile > a {
+        margin: unset;
+        padding: unset;
+    }
+</style>
+
 <div class="" id="profile">
     <div class="profile-picture">
         <h1 class="heading">{{ site.title }}</h1>
@@ -15,14 +22,14 @@ crossorigin="anonymous"
             <h2>Fellows</h2>
         {% for item in site.data.fellows %}
 
-        <a href="/fellow/{{ item.name }}.html">
+        <a href="/fellow/{{ item.name }}.html" style="display: unset">
 
 
         <div class="fellow">
             <img src="./assets/img/{{ item.img }}">
             <div class="about">
                 <div class="name">
-                    <h3>{{item.name}} <h3>
+                    <h3>{{item.name}} </h3>
                 </div>
                 <div class="other-info">
                     <i class="fas fa-2x fa-map-marker-alt"></i>
